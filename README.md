@@ -43,3 +43,17 @@ Add a numbered SQL file to `db/migrations`, such as `002_my_change.sql`, then ru
 
 - **URL:** https://fake-quickbooks.onrender.com
 - **Authentication token:** ask one of your interviewers.
+
+## Sending us your work
+
+When you're finished, run these commands from the project folder, using your own name for the file:
+
+```bash
+git add -A
+git commit -m "My work"
+git bundle create your-name.bundle --all
+```
+
+This saves your work in one file, `your-name.bundle`, in the project folder. It includes your commits, and it leaves out `node_modules` and the database.
+
+Attach that file to an email and send it to your interviewer.
