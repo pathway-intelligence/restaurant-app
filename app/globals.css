@@ -446,8 +446,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 720px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .section-head {
