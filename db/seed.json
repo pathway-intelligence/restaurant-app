@@ -1,0 +1,3200 @@
+{
+  "businesses": [
+    {
+      "id": 1,
+      "name": "Alder Street Kitchen"
+    },
+    {
+      "id": 2,
+      "name": "Juniper Taqueria"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "business_id": 1,
+      "name": "Meat & Seafood"
+    },
+    {
+      "id": 2,
+      "business_id": 1,
+      "name": "Produce"
+    },
+    {
+      "id": 3,
+      "business_id": 1,
+      "name": "Dairy"
+    },
+    {
+      "id": 4,
+      "business_id": 1,
+      "name": "Dry Goods"
+    },
+    {
+      "id": 5,
+      "business_id": 1,
+      "name": "Beverages"
+    },
+    {
+      "id": 6,
+      "business_id": 1,
+      "name": "Paper & Packaging"
+    },
+    {
+      "id": 7,
+      "business_id": 1,
+      "name": "Cleaning Supplies"
+    },
+    {
+      "id": 8,
+      "business_id": 1,
+      "name": "Services"
+    },
+    {
+      "id": 9,
+      "business_id": 1,
+      "name": "Equipment"
+    },
+    {
+      "id": 10,
+      "business_id": 2,
+      "name": "Meat & Seafood"
+    },
+    {
+      "id": 11,
+      "business_id": 2,
+      "name": "Produce"
+    },
+    {
+      "id": 12,
+      "business_id": 2,
+      "name": "Dairy"
+    },
+    {
+      "id": 13,
+      "business_id": 2,
+      "name": "Dry Goods"
+    },
+    {
+      "id": 14,
+      "business_id": 2,
+      "name": "Beverages"
+    },
+    {
+      "id": 15,
+      "business_id": 2,
+      "name": "Paper & Packaging"
+    },
+    {
+      "id": 16,
+      "business_id": 2,
+      "name": "Cleaning Supplies"
+    },
+    {
+      "id": 17,
+      "business_id": 2,
+      "name": "Delivery & Fees"
+    },
+    {
+      "id": 18,
+      "business_id": 2,
+      "name": "Smallwares"
+    }
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "business_id": 1,
+      "name": "Bayline Foods"
+    },
+    {
+      "id": 2,
+      "business_id": 1,
+      "name": "Greenhollow Produce"
+    },
+    {
+      "id": 3,
+      "business_id": 1,
+      "name": "Northgate Meats"
+    },
+    {
+      "id": 4,
+      "business_id": 1,
+      "name": "Clearwater Dairy"
+    },
+    {
+      "id": 5,
+      "business_id": 1,
+      "name": "Tidewater Linen"
+    },
+    {
+      "id": 6,
+      "business_id": 1,
+      "name": "Fernwood Restaurant Supply"
+    },
+    {
+      "id": 7,
+      "business_id": 1,
+      "name": "Larkspur Coffee Roasters"
+    },
+    {
+      "id": 8,
+      "business_id": 2,
+      "name": "Bayline Foods"
+    },
+    {
+      "id": 9,
+      "business_id": 2,
+      "name": "Greenhollow Produce"
+    },
+    {
+      "id": 10,
+      "business_id": 2,
+      "name": "Larkspur Coffee Roasters"
+    },
+    {
+      "id": 11,
+      "business_id": 2,
+      "name": "Molina Tortilleria"
+    },
+    {
+      "id": 12,
+      "business_id": 2,
+      "name": "Fernwood Restaurant Supply"
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "business_id": 1,
+      "distributor_id": 1,
+      "invoice_number": "87365",
+      "invoice_date": "2026-09-11",
+      "total_cents": 175190
+    },
+    {
+      "id": 2,
+      "business_id": 1,
+      "distributor_id": 1,
+      "invoice_number": "87490",
+      "invoice_date": "2026-09-18",
+      "total_cents": 201585
+    },
+    {
+      "id": 3,
+      "business_id": 1,
+      "distributor_id": 2,
+      "invoice_number": "GH-5301",
+      "invoice_date": "2026-09-22",
+      "total_cents": 67550
+    },
+    {
+      "id": 4,
+      "business_id": 1,
+      "distributor_id": 3,
+      "invoice_number": "40431",
+      "invoice_date": "2026-09-23",
+      "total_cents": 164540
+    },
+    {
+      "id": 5,
+      "business_id": 1,
+      "distributor_id": 1,
+      "invoice_number": "87603",
+      "invoice_date": "2026-09-25",
+      "total_cents": 187640
+    },
+    {
+      "id": 6,
+      "business_id": 1,
+      "distributor_id": 2,
+      "invoice_number": "GH-5344",
+      "invoice_date": "2026-09-28",
+      "total_cents": 70210
+    },
+    {
+      "id": 7,
+      "business_id": 1,
+      "distributor_id": 5,
+      "invoice_number": "TL-2212",
+      "invoice_date": "2026-09-29",
+      "total_cents": 14200
+    },
+    {
+      "id": 8,
+      "business_id": 1,
+      "distributor_id": 3,
+      "invoice_number": "40555",
+      "invoice_date": "2026-09-30",
+      "total_cents": 162240
+    },
+    {
+      "id": 9,
+      "business_id": 1,
+      "distributor_id": 1,
+      "invoice_number": "87711",
+      "invoice_date": "2026-10-02",
+      "total_cents": 224410
+    },
+    {
+      "id": 10,
+      "business_id": 1,
+      "distributor_id": 2,
+      "invoice_number": "GH-5390",
+      "invoice_date": "2025-10-05",
+      "total_cents": 73145
+    },
+    {
+      "id": 11,
+      "business_id": 1,
+      "distributor_id": 4,
+      "invoice_number": "7634",
+      "invoice_date": "2026-10-06",
+      "total_cents": 37710
+    },
+    {
+      "id": 12,
+      "business_id": 1,
+      "distributor_id": 4,
+      "invoice_number": "7634",
+      "invoice_date": "2026-10-06",
+      "total_cents": 37710
+    },
+    {
+      "id": 13,
+      "business_id": 1,
+      "distributor_id": 3,
+      "invoice_number": "40688",
+      "invoice_date": "2026-10-07",
+      "total_cents": 137780
+    },
+    {
+      "id": 14,
+      "business_id": 1,
+      "distributor_id": 1,
+      "invoice_number": "87842",
+      "invoice_date": "2026-10-09",
+      "total_cents": 198725
+    },
+    {
+      "id": 15,
+      "business_id": 1,
+      "distributor_id": 2,
+      "invoice_number": "GH-5433",
+      "invoice_date": "2026-10-12",
+      "total_cents": 68420
+    },
+    {
+      "id": 16,
+      "business_id": 1,
+      "distributor_id": 4,
+      "invoice_number": "7668",
+      "invoice_date": "2026-10-13",
+      "total_cents": 39240
+    },
+    {
+      "id": 17,
+      "business_id": 1,
+      "distributor_id": 5,
+      "invoice_number": "TL-2251",
+      "invoice_date": "2026-10-13",
+      "total_cents": 14200
+    },
+    {
+      "id": 18,
+      "business_id": 1,
+      "distributor_id": 1,
+      "invoice_number": "87996",
+      "invoice_date": "2026-10-16",
+      "total_cents": 210630
+    },
+    {
+      "id": 19,
+      "business_id": 1,
+      "distributor_id": 2,
+      "invoice_number": "GH-5478",
+      "invoice_date": "2026-10-19",
+      "total_cents": 55890
+    },
+    {
+      "id": 20,
+      "business_id": 1,
+      "distributor_id": 4,
+      "invoice_number": "7702",
+      "invoice_date": "2026-10-20",
+      "total_cents": 37160
+    },
+    {
+      "id": 21,
+      "business_id": 1,
+      "distributor_id": 3,
+      "invoice_number": "40812",
+      "invoice_date": "2026-10-21",
+      "total_cents": 121035
+    },
+    {
+      "id": 22,
+      "business_id": 1,
+      "distributor_id": 6,
+      "invoice_number": "F-30418",
+      "invoice_date": "2026-10-22",
+      "total_cents": 342000
+    },
+    {
+      "id": 23,
+      "business_id": 1,
+      "distributor_id": 7,
+      "invoice_number": "1186",
+      "invoice_date": "2026-10-22",
+      "total_cents": 22800
+    },
+    {
+      "id": 24,
+      "business_id": 1,
+      "distributor_id": 1,
+      "invoice_number": "88107",
+      "invoice_date": "2026-10-23",
+      "total_cents": 190465
+    },
+    {
+      "id": 25,
+      "business_id": 1,
+      "distributor_id": 2,
+      "invoice_number": "CM-0412",
+      "invoice_date": "2026-10-26",
+      "total_cents": -4650
+    },
+    {
+      "id": 26,
+      "business_id": 1,
+      "distributor_id": 5,
+      "invoice_number": "TL-2290",
+      "invoice_date": "2026-10-27",
+      "total_cents": 14200
+    },
+    {
+      "id": 27,
+      "business_id": 1,
+      "distributor_id": 4,
+      "invoice_number": "7731",
+      "invoice_date": "2026-10-28",
+      "total_cents": 38410
+    },
+    {
+      "id": 28,
+      "business_id": 1,
+      "distributor_id": 3,
+      "invoice_number": "40937",
+      "invoice_date": "2026-10-28",
+      "total_cents": 148620
+    },
+    {
+      "id": 29,
+      "business_id": 1,
+      "distributor_id": 2,
+      "invoice_number": "GH-5521",
+      "invoice_date": "2026-10-29",
+      "total_cents": 61275
+    },
+    {
+      "id": 30,
+      "business_id": 1,
+      "distributor_id": 1,
+      "invoice_number": "88214",
+      "invoice_date": "2026-10-30",
+      "total_cents": 231840
+    },
+    {
+      "id": 31,
+      "business_id": 2,
+      "distributor_id": 9,
+      "invoice_number": "GH-7604",
+      "invoice_date": "2026-09-21",
+      "total_cents": 38940
+    },
+    {
+      "id": 32,
+      "business_id": 2,
+      "distributor_id": 8,
+      "invoice_number": "87776",
+      "invoice_date": "2026-09-24",
+      "total_cents": 115590
+    },
+    {
+      "id": 33,
+      "business_id": 2,
+      "distributor_id": 9,
+      "invoice_number": "GH-7650",
+      "invoice_date": "2026-09-28",
+      "total_cents": 40215
+    },
+    {
+      "id": 34,
+      "business_id": 2,
+      "distributor_id": 10,
+      "invoice_number": "7699",
+      "invoice_date": "2026-10-01",
+      "total_cents": 17500
+    },
+    {
+      "id": 35,
+      "business_id": 2,
+      "distributor_id": 8,
+      "invoice_number": "87855",
+      "invoice_date": "2026-10-05",
+      "total_cents": 108840
+    },
+    {
+      "id": 36,
+      "business_id": 2,
+      "distributor_id": 9,
+      "invoice_number": "GH-7701",
+      "invoice_date": "2026-10-07",
+      "total_cents": 43035
+    },
+    {
+      "id": 37,
+      "business_id": 2,
+      "distributor_id": 12,
+      "invoice_number": "F-11987",
+      "invoice_date": "2026-10-09",
+      "total_cents": 53310
+    },
+    {
+      "id": 38,
+      "business_id": 2,
+      "distributor_id": 8,
+      "invoice_number": "87934",
+      "invoice_date": "2026-10-12",
+      "total_cents": 104230
+    },
+    {
+      "id": 39,
+      "business_id": 2,
+      "distributor_id": 10,
+      "invoice_number": "7741",
+      "invoice_date": "2026-10-14",
+      "total_cents": 18200
+    },
+    {
+      "id": 40,
+      "business_id": 2,
+      "distributor_id": 9,
+      "invoice_number": "GH-7766",
+      "invoice_date": "2026-10-16",
+      "total_cents": 44460
+    },
+    {
+      "id": 41,
+      "business_id": 2,
+      "distributor_id": 8,
+      "invoice_number": "88012",
+      "invoice_date": "2026-10-19",
+      "total_cents": 111875
+    },
+    {
+      "id": 42,
+      "business_id": 2,
+      "distributor_id": 12,
+      "invoice_number": "F-12044",
+      "invoice_date": "2026-10-21",
+      "total_cents": 61230
+    },
+    {
+      "id": 43,
+      "business_id": 2,
+      "distributor_id": 8,
+      "invoice_number": "88107",
+      "invoice_date": "2026-10-23",
+      "total_cents": 98640
+    },
+    {
+      "id": 44,
+      "business_id": 2,
+      "distributor_id": 9,
+      "invoice_number": "GH-CR-19",
+      "invoice_date": "2026-10-26",
+      "total_cents": -3120
+    },
+    {
+      "id": 45,
+      "business_id": 2,
+      "distributor_id": 11,
+      "invoice_number": "M-221",
+      "invoice_date": "2026-10-27",
+      "total_cents": 14800
+    },
+    {
+      "id": 46,
+      "business_id": 2,
+      "distributor_id": 10,
+      "invoice_number": "7790",
+      "invoice_date": "2026-10-28",
+      "total_cents": 19600
+    },
+    {
+      "id": 47,
+      "business_id": 2,
+      "distributor_id": 9,
+      "invoice_number": "GH-7812",
+      "invoice_date": "2026-10-29",
+      "total_cents": 41825
+    },
+    {
+      "id": 48,
+      "business_id": 2,
+      "distributor_id": 8,
+      "invoice_number": "88230",
+      "invoice_date": "2026-10-30",
+      "total_cents": 120460
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "invoice_id": 1,
+      "description": "Beef tenderloin, 2/6 lb case",
+      "quantity": 1,
+      "unit_price_cents": 18325,
+      "amount_cents": 18325,
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "invoice_id": 1,
+      "description": "Shrimp 16/20, 5 lb bag",
+      "quantity": 5,
+      "unit_price_cents": 6695,
+      "amount_cents": 33475,
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "invoice_id": 1,
+      "description": "Chicken thighs, 40 lb case",
+      "quantity": 5,
+      "unit_price_cents": 5240,
+      "amount_cents": 26200,
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "invoice_id": 1,
+      "description": "Penne pasta, 20 lb case",
+      "quantity": 12,
+      "unit_price_cents": 4010,
+      "amount_cents": 48120,
+      "category_id": 4
+    },
+    {
+      "id": 5,
+      "invoice_id": 1,
+      "description": "Olive oil blend, 35 lb jug",
+      "quantity": 2,
+      "unit_price_cents": 2960,
+      "amount_cents": 5920,
+      "category_id": 4
+    },
+    {
+      "id": 6,
+      "invoice_id": 1,
+      "description": "Orange juice, 8/32 oz case",
+      "quantity": 1,
+      "unit_price_cents": 3420,
+      "amount_cents": 3420,
+      "category_id": 5
+    },
+    {
+      "id": 7,
+      "invoice_id": 1,
+      "description": "Iced tea bags, 96 ct",
+      "quantity": 7,
+      "unit_price_cents": 2940,
+      "amount_cents": 20580,
+      "category_id": 5
+    },
+    {
+      "id": 8,
+      "invoice_id": 1,
+      "description": "Brown paper bags, 250 ct",
+      "quantity": 7,
+      "unit_price_cents": 2500,
+      "amount_cents": 17500,
+      "category_id": 6
+    },
+    {
+      "id": 9,
+      "invoice_id": 1,
+      "description": "DELIVERY CHARGE",
+      "quantity": 1,
+      "unit_price_cents": 1650,
+      "amount_cents": 1650,
+      "category_id": null
+    },
+    {
+      "id": 10,
+      "invoice_id": 2,
+      "description": "Salmon fillets, 10 lb case",
+      "quantity": 1,
+      "unit_price_cents": 14480,
+      "amount_cents": 14480,
+      "category_id": 1
+    },
+    {
+      "id": 11,
+      "invoice_id": 2,
+      "description": "Bacon, 15 lb case",
+      "quantity": 5,
+      "unit_price_cents": 7960,
+      "amount_cents": 39800,
+      "category_id": 1
+    },
+    {
+      "id": 12,
+      "invoice_id": 2,
+      "description": "Lamb shoulder, 12 lb case",
+      "quantity": 4,
+      "unit_price_cents": 11430,
+      "amount_cents": 45720,
+      "category_id": 1
+    },
+    {
+      "id": 13,
+      "invoice_id": 2,
+      "description": "Panko breadcrumbs, 25 lb bag",
+      "quantity": 1,
+      "unit_price_cents": 4570,
+      "amount_cents": 4570,
+      "category_id": 4
+    },
+    {
+      "id": 14,
+      "invoice_id": 2,
+      "description": "Red wine vinegar, 4/1 gal case",
+      "quantity": 11,
+      "unit_price_cents": 3405,
+      "amount_cents": 37455,
+      "category_id": 4
+    },
+    {
+      "id": 15,
+      "invoice_id": 2,
+      "description": "Russet potatoes, 50 lb bag",
+      "quantity": 10,
+      "unit_price_cents": 2770,
+      "amount_cents": 27700,
+      "category_id": 2
+    },
+    {
+      "id": 16,
+      "invoice_id": 2,
+      "description": "Plastic cutlery kits, 250 ct",
+      "quantity": 5,
+      "unit_price_cents": 3350,
+      "amount_cents": 16750,
+      "category_id": 6
+    },
+    {
+      "id": 17,
+      "invoice_id": 2,
+      "description": "Deli containers, 16 oz, 240 ct",
+      "quantity": 1,
+      "unit_price_cents": 4250,
+      "amount_cents": 4250,
+      "category_id": 6
+    },
+    {
+      "id": 18,
+      "invoice_id": 2,
+      "description": "Scrub pads, 20 ct",
+      "quantity": 4,
+      "unit_price_cents": 2375,
+      "amount_cents": 9500,
+      "category_id": 7
+    },
+    {
+      "id": 19,
+      "invoice_id": 2,
+      "description": "FUEL",
+      "quantity": 1,
+      "unit_price_cents": 1360,
+      "amount_cents": 1360,
+      "category_id": 4
+    },
+    {
+      "id": 20,
+      "invoice_id": 3,
+      "description": "Spring mix, 3 lb case",
+      "quantity": 3,
+      "unit_price_cents": 2250,
+      "amount_cents": 6750,
+      "category_id": 2
+    },
+    {
+      "id": 21,
+      "invoice_id": 3,
+      "description": "Button mushrooms, 10 lb case",
+      "quantity": 3,
+      "unit_price_cents": 3720,
+      "amount_cents": 11160,
+      "category_id": 2
+    },
+    {
+      "id": 22,
+      "invoice_id": 3,
+      "description": "Lemons, 115 ct case",
+      "quantity": 1,
+      "unit_price_cents": 4695,
+      "amount_cents": 4695,
+      "category_id": 2
+    },
+    {
+      "id": 23,
+      "invoice_id": 3,
+      "description": "Cucumbers, 24 ct case",
+      "quantity": 3,
+      "unit_price_cents": 2545,
+      "amount_cents": 7635,
+      "category_id": 2
+    },
+    {
+      "id": 24,
+      "invoice_id": 3,
+      "description": "Broccoli crowns, 20 lb case",
+      "quantity": 3,
+      "unit_price_cents": 3330,
+      "amount_cents": 9990,
+      "category_id": 2
+    },
+    {
+      "id": 25,
+      "invoice_id": 3,
+      "description": "Yellow onions, 50 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 2840,
+      "amount_cents": 8520,
+      "category_id": 2
+    },
+    {
+      "id": 26,
+      "invoice_id": 3,
+      "description": "Romaine hearts, 12 ct case",
+      "quantity": 4,
+      "unit_price_cents": 3380,
+      "amount_cents": 13520,
+      "category_id": 2
+    },
+    {
+      "id": 27,
+      "invoice_id": 3,
+      "description": "Italian parsley, 12 ct bunch",
+      "quantity": 3,
+      "unit_price_cents": 1760,
+      "amount_cents": 5280,
+      "category_id": 2
+    },
+    {
+      "id": 28,
+      "invoice_id": 4,
+      "description": "Whole beef tenderloin, catch weight",
+      "quantity": 8,
+      "unit_price_cents": 8950,
+      "amount_cents": 74235,
+      "category_id": 1
+    },
+    {
+      "id": 29,
+      "invoice_id": 4,
+      "description": "Shrimp 16/20, 5 lb bag",
+      "quantity": 7,
+      "unit_price_cents": 6665,
+      "amount_cents": 46655,
+      "category_id": 1
+    },
+    {
+      "id": 30,
+      "invoice_id": 4,
+      "description": "Pork butt, 2/9 lb case",
+      "quantity": 1,
+      "unit_price_cents": 7145,
+      "amount_cents": 7145,
+      "category_id": 1
+    },
+    {
+      "id": 31,
+      "invoice_id": 4,
+      "description": "Chicken thighs, 40 lb case",
+      "quantity": 7,
+      "unit_price_cents": 5215,
+      "amount_cents": 36505,
+      "category_id": 1
+    },
+    {
+      "id": 32,
+      "invoice_id": 5,
+      "description": "Chicken breast, 40 lb case",
+      "quantity": 5,
+      "unit_price_cents": 6160,
+      "amount_cents": 30800,
+      "category_id": 1
+    },
+    {
+      "id": 33,
+      "invoice_id": 5,
+      "description": "Beef short ribs, 20 lb case",
+      "quantity": 1,
+      "unit_price_cents": 12700,
+      "amount_cents": 12700,
+      "category_id": 1
+    },
+    {
+      "id": 34,
+      "invoice_id": 5,
+      "description": "Bacon, 15 lb case",
+      "quantity": 6,
+      "unit_price_cents": 7750,
+      "amount_cents": 46500,
+      "category_id": 1
+    },
+    {
+      "id": 35,
+      "invoice_id": 5,
+      "description": "Celery, 30 ct case",
+      "quantity": 5,
+      "unit_price_cents": 4724,
+      "amount_cents": 23620,
+      "category_id": 2
+    },
+    {
+      "id": 36,
+      "invoice_id": 5,
+      "description": "All-purpose flour, 50 lb bag",
+      "quantity": 12,
+      "unit_price_cents": 3405,
+      "amount_cents": 40860,
+      "category_id": 4
+    },
+    {
+      "id": 37,
+      "invoice_id": 5,
+      "description": "White beans, 6/#10 can case",
+      "quantity": 2,
+      "unit_price_cents": 2570,
+      "amount_cents": 5140,
+      "category_id": 4
+    },
+    {
+      "id": 38,
+      "invoice_id": 5,
+      "description": "Foil sheets, 500 ct",
+      "quantity": 5,
+      "unit_price_cents": 3600,
+      "amount_cents": 18000,
+      "category_id": 6
+    },
+    {
+      "id": 39,
+      "invoice_id": 5,
+      "description": "Degreaser, 4/1 gal case",
+      "quantity": 2,
+      "unit_price_cents": 4300,
+      "amount_cents": 8600,
+      "category_id": 7
+    },
+    {
+      "id": 40,
+      "invoice_id": 5,
+      "description": "FUEL SURCHG",
+      "quantity": 1,
+      "unit_price_cents": 1420,
+      "amount_cents": 1420,
+      "category_id": null
+    },
+    {
+      "id": 41,
+      "invoice_id": 6,
+      "description": "Broccoli crowns, 20 lb case",
+      "quantity": 4,
+      "unit_price_cents": 3380,
+      "amount_cents": 13520,
+      "category_id": 2
+    },
+    {
+      "id": 42,
+      "invoice_id": 6,
+      "description": "Button mushrooms, 10 lb case",
+      "quantity": 1,
+      "unit_price_cents": 3790,
+      "amount_cents": 3790,
+      "category_id": 2
+    },
+    {
+      "id": 43,
+      "invoice_id": 6,
+      "description": "Celery, 30 ct case",
+      "quantity": 4,
+      "unit_price_cents": 3580,
+      "amount_cents": 14320,
+      "category_id": 2
+    },
+    {
+      "id": 44,
+      "invoice_id": 6,
+      "description": "Spring mix, 3 lb case",
+      "quantity": 4,
+      "unit_price_cents": 2285,
+      "amount_cents": 9140,
+      "category_id": 2
+    },
+    {
+      "id": 45,
+      "invoice_id": 6,
+      "description": "Yellow onions, 50 lb bag",
+      "quantity": 4,
+      "unit_price_cents": 2885,
+      "amount_cents": 11540,
+      "category_id": 2
+    },
+    {
+      "id": 46,
+      "invoice_id": 6,
+      "description": "Italian parsley, 12 ct bunch",
+      "quantity": 4,
+      "unit_price_cents": 1790,
+      "amount_cents": 7160,
+      "category_id": 2
+    },
+    {
+      "id": 47,
+      "invoice_id": 6,
+      "description": "Peeled garlic, 5 lb jar",
+      "quantity": 4,
+      "unit_price_cents": 2685,
+      "amount_cents": 10740,
+      "category_id": 2
+    },
+    {
+      "id": 48,
+      "invoice_id": 7,
+      "description": "Bar towels, weekly rental",
+      "quantity": 1,
+      "unit_price_cents": 6200,
+      "amount_cents": 6200,
+      "category_id": 8
+    },
+    {
+      "id": 49,
+      "invoice_id": 7,
+      "description": "Chef coats, weekly rental",
+      "quantity": 1,
+      "unit_price_cents": 4800,
+      "amount_cents": 4800,
+      "category_id": 8
+    },
+    {
+      "id": 50,
+      "invoice_id": 7,
+      "description": "Aprons, weekly rental",
+      "quantity": 1,
+      "unit_price_cents": 3200,
+      "amount_cents": 3200,
+      "category_id": 8
+    },
+    {
+      "id": 51,
+      "invoice_id": 8,
+      "description": "Chicken breast, 40 lb case",
+      "quantity": 7,
+      "unit_price_cents": 6335,
+      "amount_cents": 44345,
+      "category_id": 1
+    },
+    {
+      "id": 52,
+      "invoice_id": 8,
+      "description": "Turkey breast, 2/8 lb case",
+      "quantity": 7,
+      "unit_price_cents": 8790,
+      "amount_cents": 61530,
+      "category_id": 1
+    },
+    {
+      "id": 53,
+      "invoice_id": 8,
+      "description": "Beef short ribs, 20 lb case",
+      "quantity": 1,
+      "unit_price_cents": 13105,
+      "amount_cents": 13105,
+      "category_id": 1
+    },
+    {
+      "id": 54,
+      "invoice_id": 9,
+      "description": "Ribeye, 2/12 lb case",
+      "quantity": 1,
+      "unit_price_cents": 20875,
+      "amount_cents": 20875,
+      "category_id": 1
+    },
+    {
+      "id": 55,
+      "invoice_id": 9,
+      "description": "Pork butt, 2/9 lb case",
+      "quantity": 7,
+      "unit_price_cents": 7180,
+      "amount_cents": 50260,
+      "category_id": 1
+    },
+    {
+      "id": 56,
+      "invoice_id": 9,
+      "description": "Shrimp 16/20, 5 lb bag",
+      "quantity": 7,
+      "unit_price_cents": 6695,
+      "amount_cents": 46865,
+      "category_id": 1
+    },
+    {
+      "id": 57,
+      "invoice_id": 9,
+      "description": "Long grain rice, 50 lb bag",
+      "quantity": 12,
+      "unit_price_cents": 4095,
+      "amount_cents": 49140,
+      "category_id": 4
+    },
+    {
+      "id": 58,
+      "invoice_id": 9,
+      "description": "Chicken base, 6/1 lb case",
+      "quantity": 1,
+      "unit_price_cents": 6110,
+      "amount_cents": 6110,
+      "category_id": 4
+    },
+    {
+      "id": 59,
+      "invoice_id": 9,
+      "description": "Lemons, 115 ct case",
+      "quantity": 5,
+      "unit_price_cents": 5000,
+      "amount_cents": 25000,
+      "category_id": 2
+    },
+    {
+      "id": 60,
+      "invoice_id": 9,
+      "description": "Brown paper bags, 250 ct",
+      "quantity": 8,
+      "unit_price_cents": 2375,
+      "amount_cents": 19000,
+      "category_id": 6
+    },
+    {
+      "id": 61,
+      "invoice_id": 9,
+      "description": "Trash liners, 100 ct",
+      "quantity": 3,
+      "unit_price_cents": 2720,
+      "amount_cents": 8160,
+      "category_id": 6
+    },
+    {
+      "id": 62,
+      "invoice_id": 9,
+      "description": "Degreaser, 4/1 gal case",
+      "quantity": 1,
+      "unit_price_cents": 5200,
+      "amount_cents": 5200,
+      "category_id": 7
+    },
+    {
+      "id": 63,
+      "invoice_id": 9,
+      "description": "RETURN: Chicken breast, 40 lb case",
+      "quantity": -1,
+      "unit_price_cents": 6200,
+      "amount_cents": -6200,
+      "category_id": 1
+    },
+    {
+      "id": 64,
+      "invoice_id": 10,
+      "description": "Yellow onions, 50 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 2930,
+      "amount_cents": 8790,
+      "category_id": 2
+    },
+    {
+      "id": 65,
+      "invoice_id": 10,
+      "description": "Italian parsley, 12 ct bunch",
+      "quantity": 4,
+      "unit_price_cents": 1820,
+      "amount_cents": 7280,
+      "category_id": 2
+    },
+    {
+      "id": 66,
+      "invoice_id": 10,
+      "description": "Russet potatoes, 50 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 3235,
+      "amount_cents": 9705,
+      "category_id": 2
+    },
+    {
+      "id": 67,
+      "invoice_id": 10,
+      "description": "Peeled garlic, 5 lb jar",
+      "quantity": 3,
+      "unit_price_cents": 2730,
+      "amount_cents": 8190,
+      "category_id": 2
+    },
+    {
+      "id": 68,
+      "invoice_id": 10,
+      "description": "Lemons, 115 ct case",
+      "quantity": 1,
+      "unit_price_cents": 4845,
+      "amount_cents": 4845,
+      "category_id": 2
+    },
+    {
+      "id": 69,
+      "invoice_id": 10,
+      "description": "Roma tomatoes, 25 lb case",
+      "quantity": 4,
+      "unit_price_cents": 4140,
+      "amount_cents": 16560,
+      "category_id": 2
+    },
+    {
+      "id": 70,
+      "invoice_id": 10,
+      "description": "Carrots, 25 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 2425,
+      "amount_cents": 7275,
+      "category_id": 2
+    },
+    {
+      "id": 71,
+      "invoice_id": 10,
+      "description": "Cucumbers, 24 ct case",
+      "quantity": 4,
+      "unit_price_cents": 2625,
+      "amount_cents": 10500,
+      "category_id": 2
+    },
+    {
+      "id": 72,
+      "invoice_id": 11,
+      "description": "Unsalted butter, 36 lb case",
+      "quantity": 1,
+      "unit_price_cents": 13040,
+      "amount_cents": 13040,
+      "category_id": 3
+    },
+    {
+      "id": 73,
+      "invoice_id": 11,
+      "description": "Whole milk, 4/1 gal case",
+      "quantity": 2,
+      "unit_price_cents": 2995,
+      "amount_cents": 5990,
+      "category_id": 3
+    },
+    {
+      "id": 74,
+      "invoice_id": 11,
+      "description": "Plain yogurt, 6/32 oz case",
+      "quantity": 2,
+      "unit_price_cents": 2510,
+      "amount_cents": 5020,
+      "category_id": 3
+    },
+    {
+      "id": 75,
+      "invoice_id": 11,
+      "description": "Parmesan, 2/5 lb case",
+      "quantity": 1,
+      "unit_price_cents": 6665,
+      "amount_cents": 6665,
+      "category_id": 3
+    },
+    {
+      "id": 76,
+      "invoice_id": 11,
+      "description": "Shredded mozzarella, 4/5 lb case",
+      "quantity": 1,
+      "unit_price_cents": 6995,
+      "amount_cents": 6995,
+      "category_id": 3
+    },
+    {
+      "id": 77,
+      "invoice_id": 12,
+      "description": "Unsalted butter, 36 lb case",
+      "quantity": 1,
+      "unit_price_cents": 13040,
+      "amount_cents": 13040,
+      "category_id": 3
+    },
+    {
+      "id": 78,
+      "invoice_id": 12,
+      "description": "Whole milk, 4/1 gal case",
+      "quantity": 2,
+      "unit_price_cents": 2995,
+      "amount_cents": 5990,
+      "category_id": 3
+    },
+    {
+      "id": 79,
+      "invoice_id": 12,
+      "description": "Plain yogurt, 6/32 oz case",
+      "quantity": 2,
+      "unit_price_cents": 2510,
+      "amount_cents": 5020,
+      "category_id": 3
+    },
+    {
+      "id": 80,
+      "invoice_id": 12,
+      "description": "Parmesan, 2/5 lb case",
+      "quantity": 1,
+      "unit_price_cents": 6665,
+      "amount_cents": 6665,
+      "category_id": 3
+    },
+    {
+      "id": 81,
+      "invoice_id": 12,
+      "description": "Shredded mozzarella, 4/5 lb case",
+      "quantity": 1,
+      "unit_price_cents": 6995,
+      "amount_cents": 6995,
+      "category_id": 3
+    },
+    {
+      "id": 82,
+      "invoice_id": 13,
+      "description": "Shrimp 16/20, 5 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 7000,
+      "amount_cents": 21000,
+      "category_id": 1
+    },
+    {
+      "id": 83,
+      "invoice_id": 13,
+      "description": "Pork butt, 2/9 lb case",
+      "quantity": 3,
+      "unit_price_cents": 7510,
+      "amount_cents": 22530,
+      "category_id": 1
+    },
+    {
+      "id": 84,
+      "invoice_id": 13,
+      "description": "Lamb shoulder, 12 lb case",
+      "quantity": 3,
+      "unit_price_cents": 11365,
+      "amount_cents": 34095,
+      "category_id": 1
+    },
+    {
+      "id": 85,
+      "invoice_id": 13,
+      "description": "Beef tenderloin, 2/6 lb case",
+      "quantity": 2,
+      "unit_price_cents": 19175,
+      "amount_cents": 38350,
+      "category_id": 1
+    },
+    {
+      "id": 86,
+      "invoice_id": 13,
+      "description": "Ribeye, 2/12 lb case",
+      "quantity": 1,
+      "unit_price_cents": 21805,
+      "amount_cents": 21805,
+      "category_id": 1
+    },
+    {
+      "id": 87,
+      "invoice_id": 14,
+      "description": "Pork butt, 2/9 lb case",
+      "quantity": 1,
+      "unit_price_cents": 7370,
+      "amount_cents": 7370,
+      "category_id": 1
+    },
+    {
+      "id": 88,
+      "invoice_id": 14,
+      "description": "Shrimp 16/20, 5 lb bag",
+      "quantity": 7,
+      "unit_price_cents": 6895,
+      "amount_cents": 48265,
+      "category_id": 1
+    },
+    {
+      "id": 89,
+      "invoice_id": 14,
+      "description": "Italian sausage, 10 lb case",
+      "quantity": 7,
+      "unit_price_cents": 5195,
+      "amount_cents": 36365,
+      "category_id": 1
+    },
+    {
+      "id": 90,
+      "invoice_id": 14,
+      "description": "Romaine hearts, 12 ct case",
+      "quantity": 1,
+      "unit_price_cents": 3320,
+      "amount_cents": 3320,
+      "category_id": 2
+    },
+    {
+      "id": 91,
+      "invoice_id": 14,
+      "description": "Peeled garlic, 5 lb jar",
+      "quantity": 8,
+      "unit_price_cents": 2585,
+      "amount_cents": 20680,
+      "category_id": 2
+    },
+    {
+      "id": 92,
+      "invoice_id": 14,
+      "description": "Black peppercorns, 5 lb tub",
+      "quantity": 1,
+      "unit_price_cents": 6240,
+      "amount_cents": 6240,
+      "category_id": 4
+    },
+    {
+      "id": 93,
+      "invoice_id": 14,
+      "description": "Long grain rice, 50 lb bag",
+      "quantity": 6,
+      "unit_price_cents": 3630,
+      "amount_cents": 21780,
+      "category_id": 4
+    },
+    {
+      "id": 94,
+      "invoice_id": 14,
+      "description": "Red wine vinegar, 4/1 gal case",
+      "quantity": 6,
+      "unit_price_cents": 3330,
+      "amount_cents": 19980,
+      "category_id": 4
+    },
+    {
+      "id": 95,
+      "invoice_id": 14,
+      "description": "Parchment sheets, 1000 ct",
+      "quantity": 1,
+      "unit_price_cents": 4935,
+      "amount_cents": 4935,
+      "category_id": 6
+    },
+    {
+      "id": 96,
+      "invoice_id": 14,
+      "description": "Brown paper bags, 250 ct",
+      "quantity": 6,
+      "unit_price_cents": 2990,
+      "amount_cents": 17940,
+      "category_id": 6
+    },
+    {
+      "id": 97,
+      "invoice_id": 14,
+      "description": "Floor cleaner, 4/1 gal case",
+      "quantity": 2,
+      "unit_price_cents": 5000,
+      "amount_cents": 10000,
+      "category_id": 7
+    },
+    {
+      "id": 98,
+      "invoice_id": 15,
+      "description": "Lemons, 115 ct case",
+      "quantity": 1,
+      "unit_price_cents": 4725,
+      "amount_cents": 4725,
+      "category_id": 2
+    },
+    {
+      "id": 99,
+      "invoice_id": 15,
+      "description": "Carrots, 25 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 2365,
+      "amount_cents": 7095,
+      "category_id": 2
+    },
+    {
+      "id": 100,
+      "invoice_id": 15,
+      "description": "Spring mix, 3 lb case",
+      "quantity": 4,
+      "unit_price_cents": 2265,
+      "amount_cents": 9060,
+      "category_id": 2
+    },
+    {
+      "id": 101,
+      "invoice_id": 15,
+      "description": "Broccoli crowns, 20 lb case",
+      "quantity": 3,
+      "unit_price_cents": 3345,
+      "amount_cents": 10035,
+      "category_id": 2
+    },
+    {
+      "id": 102,
+      "invoice_id": 15,
+      "description": "Peeled garlic, 5 lb jar",
+      "quantity": 4,
+      "unit_price_cents": 2660,
+      "amount_cents": 10640,
+      "category_id": 2
+    },
+    {
+      "id": 103,
+      "invoice_id": 15,
+      "description": "Russet potatoes, 50 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 3150,
+      "amount_cents": 9450,
+      "category_id": 2
+    },
+    {
+      "id": 104,
+      "invoice_id": 15,
+      "description": "Roma tomatoes, 25 lb case",
+      "quantity": 3,
+      "unit_price_cents": 4035,
+      "amount_cents": 12105,
+      "category_id": 2
+    },
+    {
+      "id": 105,
+      "invoice_id": 15,
+      "description": "Italian parsley, 12 ct bunch",
+      "quantity": 3,
+      "unit_price_cents": 1770,
+      "amount_cents": 5310,
+      "category_id": 2
+    },
+    {
+      "id": 106,
+      "invoice_id": 16,
+      "description": "Unsalted butter, 36 lb case",
+      "quantity": 1,
+      "unit_price_cents": 13360,
+      "amount_cents": 13360,
+      "category_id": 3
+    },
+    {
+      "id": 107,
+      "invoice_id": 16,
+      "description": "Parmesan, 2/5 lb case",
+      "quantity": 2,
+      "unit_price_cents": 6830,
+      "amount_cents": 13660,
+      "category_id": 3
+    },
+    {
+      "id": 108,
+      "invoice_id": 16,
+      "description": "Whole milk, 4/1 gal case",
+      "quantity": 1,
+      "unit_price_cents": 3070,
+      "amount_cents": 3070,
+      "category_id": 3
+    },
+    {
+      "id": 109,
+      "invoice_id": 16,
+      "description": "Cheddar, 2/5 lb loaf case",
+      "quantity": 1,
+      "unit_price_cents": 5540,
+      "amount_cents": 5540,
+      "category_id": 3
+    },
+    {
+      "id": 110,
+      "invoice_id": 16,
+      "description": "Heavy cream, 12/1 qt case",
+      "quantity": 1,
+      "unit_price_cents": 3610,
+      "amount_cents": 3610,
+      "category_id": 3
+    },
+    {
+      "id": 111,
+      "invoice_id": 17,
+      "description": "Bar towels, weekly rental",
+      "quantity": 1,
+      "unit_price_cents": 6200,
+      "amount_cents": 6200,
+      "category_id": 8
+    },
+    {
+      "id": 112,
+      "invoice_id": 17,
+      "description": "Chef coats, weekly rental",
+      "quantity": 1,
+      "unit_price_cents": 4800,
+      "amount_cents": 4800,
+      "category_id": 8
+    },
+    {
+      "id": 113,
+      "invoice_id": 17,
+      "description": "Aprons, weekly rental",
+      "quantity": 1,
+      "unit_price_cents": 3200,
+      "amount_cents": 3200,
+      "category_id": 8
+    },
+    {
+      "id": 114,
+      "invoice_id": 18,
+      "description": "Shrimp 16/20, 5 lb bag",
+      "quantity": 1,
+      "unit_price_cents": 6980,
+      "amount_cents": 6980,
+      "category_id": 1
+    },
+    {
+      "id": 115,
+      "invoice_id": 18,
+      "description": "Chicken thighs, 40 lb case",
+      "quantity": 8,
+      "unit_price_cents": 5445,
+      "amount_cents": 43560,
+      "category_id": 1
+    },
+    {
+      "id": 116,
+      "invoice_id": 18,
+      "description": "Italian sausage, 10 lb case",
+      "quantity": 8,
+      "unit_price_cents": 5245,
+      "amount_cents": 41960,
+      "category_id": 1
+    },
+    {
+      "id": 117,
+      "invoice_id": 18,
+      "description": "Lemons, 115 ct case",
+      "quantity": 1,
+      "unit_price_cents": 4830,
+      "amount_cents": 4830,
+      "category_id": 2
+    },
+    {
+      "id": 118,
+      "invoice_id": 18,
+      "description": "Italian parsley, 12 ct bunch",
+      "quantity": 11,
+      "unit_price_cents": 1810,
+      "amount_cents": 19910,
+      "category_id": 2
+    },
+    {
+      "id": 119,
+      "invoice_id": 18,
+      "description": "White beans, 6/#10 can case",
+      "quantity": 1,
+      "unit_price_cents": 3645,
+      "amount_cents": 3645,
+      "category_id": 4
+    },
+    {
+      "id": 120,
+      "invoice_id": 18,
+      "description": "Kosher salt, 12/3 lb case",
+      "quantity": 9,
+      "unit_price_cents": 3170,
+      "amount_cents": 28530,
+      "category_id": 4
+    },
+    {
+      "id": 121,
+      "invoice_id": 18,
+      "description": "All-purpose flour, 50 lb bag",
+      "quantity": 9,
+      "unit_price_cents": 2425,
+      "amount_cents": 21825,
+      "category_id": 4
+    },
+    {
+      "id": 122,
+      "invoice_id": 18,
+      "description": "Parchment sheets, 1000 ct",
+      "quantity": 1,
+      "unit_price_cents": 4590,
+      "amount_cents": 4590,
+      "category_id": 6
+    },
+    {
+      "id": 123,
+      "invoice_id": 18,
+      "description": "To-go boxes, 200 ct",
+      "quantity": 6,
+      "unit_price_cents": 3710,
+      "amount_cents": 22260,
+      "category_id": 6
+    },
+    {
+      "id": 124,
+      "invoice_id": 18,
+      "description": "Scrub pads, 20 ct",
+      "quantity": 5,
+      "unit_price_cents": 2200,
+      "amount_cents": 11000,
+      "category_id": 7
+    },
+    {
+      "id": 125,
+      "invoice_id": 18,
+      "description": "FUEL SURCHARGE",
+      "quantity": 1,
+      "unit_price_cents": 1540,
+      "amount_cents": 1540,
+      "category_id": null
+    },
+    {
+      "id": 126,
+      "invoice_id": 19,
+      "description": "Cucumbers, 24 ct case",
+      "quantity": 3,
+      "unit_price_cents": 2630,
+      "amount_cents": 7890,
+      "category_id": 2
+    },
+    {
+      "id": 127,
+      "invoice_id": 19,
+      "description": "Button mushrooms, 10 lb case",
+      "quantity": 2,
+      "unit_price_cents": 3840,
+      "amount_cents": 7680,
+      "category_id": 2
+    },
+    {
+      "id": 128,
+      "invoice_id": 19,
+      "description": "Roma tomatoes, 25 lb case",
+      "quantity": 1,
+      "unit_price_cents": 4135,
+      "amount_cents": 4135,
+      "category_id": 2
+    },
+    {
+      "id": 129,
+      "invoice_id": 19,
+      "description": "Spring mix, 3 lb case",
+      "quantity": 3,
+      "unit_price_cents": 2325,
+      "amount_cents": 6975,
+      "category_id": 2
+    },
+    {
+      "id": 130,
+      "invoice_id": 19,
+      "description": "Celery, 30 ct case",
+      "quantity": 2,
+      "unit_price_cents": 3640,
+      "amount_cents": 7280,
+      "category_id": 2
+    },
+    {
+      "id": 131,
+      "invoice_id": 19,
+      "description": "Russet potatoes, 50 lb bag",
+      "quantity": 2,
+      "unit_price_cents": 3235,
+      "amount_cents": 6470,
+      "category_id": 2
+    },
+    {
+      "id": 132,
+      "invoice_id": 19,
+      "description": "Italian parsley, 12 ct bunch",
+      "quantity": 2,
+      "unit_price_cents": 1820,
+      "amount_cents": 3640,
+      "category_id": 2
+    },
+    {
+      "id": 133,
+      "invoice_id": 19,
+      "description": "Green bell peppers, 25 lb case",
+      "quantity": 3,
+      "unit_price_cents": 3940,
+      "amount_cents": 11820,
+      "category_id": 2
+    },
+    {
+      "id": 134,
+      "invoice_id": 20,
+      "description": "Unsalted butter, 36 lb case",
+      "quantity": 1,
+      "unit_price_cents": 13185,
+      "amount_cents": 13185,
+      "category_id": 3
+    },
+    {
+      "id": 135,
+      "invoice_id": 20,
+      "description": "Shredded mozzarella, 4/5 lb case",
+      "quantity": 1,
+      "unit_price_cents": 7075,
+      "amount_cents": 7075,
+      "category_id": 3
+    },
+    {
+      "id": 136,
+      "invoice_id": 20,
+      "description": "Parmesan, 2/5 lb case",
+      "quantity": 1,
+      "unit_price_cents": 6740,
+      "amount_cents": 6740,
+      "category_id": 3
+    },
+    {
+      "id": 137,
+      "invoice_id": 20,
+      "description": "Cheddar, 2/5 lb loaf case",
+      "quantity": 1,
+      "unit_price_cents": 5470,
+      "amount_cents": 5470,
+      "category_id": 3
+    },
+    {
+      "id": 138,
+      "invoice_id": 20,
+      "description": "Sour cream, 4/5 lb case",
+      "quantity": 1,
+      "unit_price_cents": 4690,
+      "amount_cents": 4690,
+      "category_id": 3
+    },
+    {
+      "id": 139,
+      "invoice_id": 20,
+      "description": "Half and half, 12/1 qt case - OUT OF STOCK",
+      "quantity": 0,
+      "unit_price_cents": 2900,
+      "amount_cents": 0,
+      "category_id": null
+    },
+    {
+      "id": 140,
+      "invoice_id": 21,
+      "description": "Chicken thighs, 40 lb case",
+      "quantity": 6,
+      "unit_price_cents": 5390,
+      "amount_cents": 32340,
+      "category_id": 1
+    },
+    {
+      "id": 141,
+      "invoice_id": 21,
+      "description": "Chicken breast, 40 lb case",
+      "quantity": 5,
+      "unit_price_cents": 6185,
+      "amount_cents": 30925,
+      "category_id": 1
+    },
+    {
+      "id": 142,
+      "invoice_id": 21,
+      "description": "Beef tenderloin, 2/6 lb case",
+      "quantity": 1,
+      "unit_price_cents": 18845,
+      "amount_cents": 18845,
+      "category_id": 1
+    },
+    {
+      "id": 143,
+      "invoice_id": 21,
+      "description": "Bacon, 15 lb case",
+      "quantity": 5,
+      "unit_price_cents": 7785,
+      "amount_cents": 38925,
+      "category_id": 1
+    },
+    {
+      "id": 144,
+      "invoice_id": 22,
+      "description": "Convection oven, double stack",
+      "quantity": 1,
+      "unit_price_cents": 342000,
+      "amount_cents": 342000,
+      "category_id": 9
+    },
+    {
+      "id": 145,
+      "invoice_id": 23,
+      "description": "Espresso blend, 5 lb bag",
+      "quantity": 6,
+      "unit_price_cents": 2400,
+      "amount_cents": 14400,
+      "category_id": 5
+    },
+    {
+      "id": 146,
+      "invoice_id": 23,
+      "description": "Decaf roast, 5 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 2800,
+      "amount_cents": 8400,
+      "category_id": 5
+    },
+    {
+      "id": 147,
+      "invoice_id": 24,
+      "description": "Chicken breast, 40 lb case",
+      "quantity": 8,
+      "unit_price_cents": 6200,
+      "amount_cents": 49600,
+      "category_id": 1
+    },
+    {
+      "id": 148,
+      "invoice_id": 24,
+      "description": "Smoked brisket, 15 lb case",
+      "quantity": 7,
+      "unit_price_cents": 13050,
+      "amount_cents": 91350,
+      "category_id": null
+    },
+    {
+      "id": 149,
+      "invoice_id": 24,
+      "description": "Olive oil blend, 35 lb jug",
+      "quantity": 3,
+      "unit_price_cents": 4150,
+      "amount_cents": 12450,
+      "category_id": 4
+    },
+    {
+      "id": 150,
+      "invoice_id": 24,
+      "description": "To-go boxes, 200 ct",
+      "quantity": 5,
+      "unit_price_cents": 3875,
+      "amount_cents": 19375,
+      "category_id": 6
+    },
+    {
+      "id": 151,
+      "invoice_id": 24,
+      "description": "Trash liners, 100 ct",
+      "quantity": 2,
+      "unit_price_cents": 2720,
+      "amount_cents": 5440,
+      "category_id": 6
+    },
+    {
+      "id": 152,
+      "invoice_id": 24,
+      "description": "Degreaser, 4/1 gal case",
+      "quantity": 2,
+      "unit_price_cents": 5200,
+      "amount_cents": 10400,
+      "category_id": 7
+    },
+    {
+      "id": 153,
+      "invoice_id": 25,
+      "description": "Credit: romaine hearts, damaged",
+      "quantity": -1,
+      "unit_price_cents": 3450,
+      "amount_cents": -3450,
+      "category_id": 2
+    },
+    {
+      "id": 154,
+      "invoice_id": 25,
+      "description": "Credit: cilantro, short shipped",
+      "quantity": -1,
+      "unit_price_cents": 1200,
+      "amount_cents": -1200,
+      "category_id": 2
+    },
+    {
+      "id": 155,
+      "invoice_id": 26,
+      "description": "Bar towels, weekly rental",
+      "quantity": 1,
+      "unit_price_cents": 6200,
+      "amount_cents": 6200,
+      "category_id": 8
+    },
+    {
+      "id": 156,
+      "invoice_id": 26,
+      "description": "Chef coats, weekly rental",
+      "quantity": 1,
+      "unit_price_cents": 4800,
+      "amount_cents": 4800,
+      "category_id": 8
+    },
+    {
+      "id": 157,
+      "invoice_id": 26,
+      "description": "Aprons, weekly rental",
+      "quantity": 1,
+      "unit_price_cents": 3200,
+      "amount_cents": 3200,
+      "category_id": 8
+    },
+    {
+      "id": 158,
+      "invoice_id": 27,
+      "description": "Unsalted butter, 36 lb case",
+      "quantity": 1,
+      "unit_price_cents": 13810,
+      "amount_cents": 13810,
+      "category_id": 3
+    },
+    {
+      "id": 159,
+      "invoice_id": 27,
+      "description": "Heavy cream, 12/1 qt case",
+      "quantity": 2,
+      "unit_price_cents": 3735,
+      "amount_cents": 7470,
+      "category_id": 3
+    },
+    {
+      "id": 160,
+      "invoice_id": 27,
+      "description": "Plain yogurt, 6/32 oz case",
+      "quantity": 1,
+      "unit_price_cents": 2660,
+      "amount_cents": 2660,
+      "category_id": 3
+    },
+    {
+      "id": 161,
+      "invoice_id": 27,
+      "description": "Parmesan, 2/5 lb case",
+      "quantity": 1,
+      "unit_price_cents": 7060,
+      "amount_cents": 7060,
+      "category_id": 3
+    },
+    {
+      "id": 162,
+      "invoice_id": 27,
+      "description": "Shredded mozzarella, 4/5 lb case",
+      "quantity": 1,
+      "unit_price_cents": 7410,
+      "amount_cents": 7410,
+      "category_id": 3
+    },
+    {
+      "id": 163,
+      "invoice_id": 28,
+      "description": "Beef tenderloin, 2/6 lb case",
+      "quantity": 1,
+      "unit_price_cents": 18680,
+      "amount_cents": 18680,
+      "category_id": 1
+    },
+    {
+      "id": 164,
+      "invoice_id": 28,
+      "description": "Shrimp 16/20, 5 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 6820,
+      "amount_cents": 20460,
+      "category_id": 1
+    },
+    {
+      "id": 165,
+      "invoice_id": 28,
+      "description": "Salmon fillets, 10 lb case",
+      "quantity": 3,
+      "unit_price_cents": 14040,
+      "amount_cents": 42120,
+      "category_id": 1
+    },
+    {
+      "id": 166,
+      "invoice_id": 28,
+      "description": "Chicken thighs, 40 lb case",
+      "quantity": 2,
+      "unit_price_cents": 5340,
+      "amount_cents": 10680,
+      "category_id": 1
+    },
+    {
+      "id": 167,
+      "invoice_id": 28,
+      "description": "Italian sausage, 10 lb case",
+      "quantity": 3,
+      "unit_price_cents": 5140,
+      "amount_cents": 15420,
+      "category_id": 1
+    },
+    {
+      "id": 168,
+      "invoice_id": 29,
+      "description": "Italian parsley, 12 ct bunch",
+      "quantity": 3,
+      "unit_price_cents": 1810,
+      "amount_cents": 5430,
+      "category_id": 2
+    },
+    {
+      "id": 169,
+      "invoice_id": 29,
+      "description": "Yellow onions, 50 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 2920,
+      "amount_cents": 8760,
+      "category_id": 2
+    },
+    {
+      "id": 170,
+      "invoice_id": 29,
+      "description": "Spring mix, 3 lb case",
+      "quantity": 3,
+      "unit_price_cents": 2315,
+      "amount_cents": 6945,
+      "category_id": 2
+    },
+    {
+      "id": 171,
+      "invoice_id": 29,
+      "description": "Green bell peppers, 25 lb case",
+      "quantity": 1,
+      "unit_price_cents": 3920,
+      "amount_cents": 3920,
+      "category_id": 2
+    },
+    {
+      "id": 172,
+      "invoice_id": 29,
+      "description": "Russet potatoes, 50 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 3220,
+      "amount_cents": 9660,
+      "category_id": 2
+    },
+    {
+      "id": 173,
+      "invoice_id": 29,
+      "description": "Carrots, 25 lb bag",
+      "quantity": 2,
+      "unit_price_cents": 2415,
+      "amount_cents": 4830,
+      "category_id": 2
+    },
+    {
+      "id": 174,
+      "invoice_id": 29,
+      "description": "Broccoli crowns, 20 lb case",
+      "quantity": 2,
+      "unit_price_cents": 3420,
+      "amount_cents": 6840,
+      "category_id": 2
+    },
+    {
+      "id": 175,
+      "invoice_id": 29,
+      "description": "Button mushrooms, 10 lb case",
+      "quantity": 2,
+      "unit_price_cents": 3825,
+      "amount_cents": 7650,
+      "category_id": 2
+    },
+    {
+      "id": 176,
+      "invoice_id": 29,
+      "description": "Celery, 30 ct case",
+      "quantity": 2,
+      "unit_price_cents": 3620,
+      "amount_cents": 7240,
+      "category_id": 2
+    },
+    {
+      "id": 177,
+      "invoice_id": 30,
+      "description": "Chicken breast, 40 lb case",
+      "quantity": 8,
+      "unit_price_cents": 6200,
+      "amount_cents": 49600,
+      "category_id": 1
+    },
+    {
+      "id": 178,
+      "invoice_id": 30,
+      "description": "Ground beef 80/20, 10 lb chub",
+      "quantity": 6,
+      "unit_price_cents": 3850,
+      "amount_cents": 23100,
+      "category_id": 1
+    },
+    {
+      "id": 179,
+      "invoice_id": 30,
+      "description": "Pork butt, 2/9 lb case",
+      "quantity": 4,
+      "unit_price_cents": 7405,
+      "amount_cents": 29620,
+      "category_id": 1
+    },
+    {
+      "id": 180,
+      "invoice_id": 30,
+      "description": "Yellow onions, 50 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 2900,
+      "amount_cents": 8700,
+      "category_id": 2
+    },
+    {
+      "id": 181,
+      "invoice_id": 30,
+      "description": "Romaine hearts, 12 ct case",
+      "quantity": 4,
+      "unit_price_cents": 3450,
+      "amount_cents": 13800,
+      "category_id": 2
+    },
+    {
+      "id": 182,
+      "invoice_id": 30,
+      "description": "Roma tomatoes, 25 lb case",
+      "quantity": 3,
+      "unit_price_cents": 4100,
+      "amount_cents": 12300,
+      "category_id": 2
+    },
+    {
+      "id": 183,
+      "invoice_id": 30,
+      "description": "All-purpose flour, 50 lb bag",
+      "quantity": 4,
+      "unit_price_cents": 2450,
+      "amount_cents": 9800,
+      "category_id": 4
+    },
+    {
+      "id": 184,
+      "invoice_id": 30,
+      "description": "Canola oil, 35 lb jug",
+      "quantity": 3,
+      "unit_price_cents": 4650,
+      "amount_cents": 13950,
+      "category_id": 4
+    },
+    {
+      "id": 185,
+      "invoice_id": 30,
+      "description": "Whole milk, 4/1 gal case",
+      "quantity": 3,
+      "unit_price_cents": 3100,
+      "amount_cents": 9300,
+      "category_id": 3
+    },
+    {
+      "id": 186,
+      "invoice_id": 30,
+      "description": "Shredded mozzarella, 4/5 lb case",
+      "quantity": 3,
+      "unit_price_cents": 7240,
+      "amount_cents": 21720,
+      "category_id": 3
+    },
+    {
+      "id": 187,
+      "invoice_id": 30,
+      "description": "To-go boxes, 200 ct",
+      "quantity": 6,
+      "unit_price_cents": 3875,
+      "amount_cents": 23250,
+      "category_id": 6
+    },
+    {
+      "id": 188,
+      "invoice_id": 30,
+      "description": "Insulated delivery bags, 10 ct",
+      "quantity": 4,
+      "unit_price_cents": 1600,
+      "amount_cents": 6400,
+      "category_id": 6
+    },
+    {
+      "id": 189,
+      "invoice_id": 30,
+      "description": "Degreaser, 1 gal jug",
+      "quantity": 7,
+      "unit_price_cents": 1300,
+      "amount_cents": 9100,
+      "category_id": 7
+    },
+    {
+      "id": 190,
+      "invoice_id": 30,
+      "description": "FUEL SURCHARGE",
+      "quantity": 1,
+      "unit_price_cents": 1200,
+      "amount_cents": 1200,
+      "category_id": null
+    },
+    {
+      "id": 191,
+      "invoice_id": 31,
+      "description": "White onions, 50 lb bag",
+      "quantity": 2,
+      "unit_price_cents": 3075,
+      "amount_cents": 6150,
+      "category_id": 11
+    },
+    {
+      "id": 192,
+      "invoice_id": 31,
+      "description": "Green cabbage, 50 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 2870,
+      "amount_cents": 8610,
+      "category_id": 11
+    },
+    {
+      "id": 193,
+      "invoice_id": 31,
+      "description": "Jalapenos, 10 lb case",
+      "quantity": 3,
+      "unit_price_cents": 2355,
+      "amount_cents": 7065,
+      "category_id": 11
+    },
+    {
+      "id": 194,
+      "invoice_id": 31,
+      "description": "Cilantro, 30 ct case",
+      "quantity": 3,
+      "unit_price_cents": 2665,
+      "amount_cents": 7995,
+      "category_id": 11
+    },
+    {
+      "id": 195,
+      "invoice_id": 31,
+      "description": "Serrano chiles, 10 lb case",
+      "quantity": 2,
+      "unit_price_cents": 2765,
+      "amount_cents": 5530,
+      "category_id": 11
+    },
+    {
+      "id": 196,
+      "invoice_id": 31,
+      "description": "Poblano peppers, 20 lb case",
+      "quantity": 1,
+      "unit_price_cents": 3590,
+      "amount_cents": 3590,
+      "category_id": 11
+    },
+    {
+      "id": 197,
+      "invoice_id": 32,
+      "description": "Shrimp 21/25, 5 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 6385,
+      "amount_cents": 19155,
+      "category_id": 10
+    },
+    {
+      "id": 198,
+      "invoice_id": 32,
+      "description": "Ground beef 80/20, 10 lb chub",
+      "quantity": 3,
+      "unit_price_cents": 3840,
+      "amount_cents": 11520,
+      "category_id": 10
+    },
+    {
+      "id": 199,
+      "invoice_id": 32,
+      "description": "Boneless chicken thighs, 40 lb case",
+      "quantity": 3,
+      "unit_price_cents": 7385,
+      "amount_cents": 22155,
+      "category_id": 10
+    },
+    {
+      "id": 200,
+      "invoice_id": 32,
+      "description": "Beef cheek, 15 lb case",
+      "quantity": 1,
+      "unit_price_cents": 11170,
+      "amount_cents": 11170,
+      "category_id": 10
+    },
+    {
+      "id": 201,
+      "invoice_id": 32,
+      "description": "Kosher salt, 12/3 lb case",
+      "quantity": 4,
+      "unit_price_cents": 3035,
+      "amount_cents": 12140,
+      "category_id": 13
+    },
+    {
+      "id": 202,
+      "invoice_id": 32,
+      "description": "Hominy, 6/#10 can case",
+      "quantity": 1,
+      "unit_price_cents": 3615,
+      "amount_cents": 3615,
+      "category_id": 13
+    },
+    {
+      "id": 203,
+      "invoice_id": 32,
+      "description": "Long grain rice, 50 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 3415,
+      "amount_cents": 10245,
+      "category_id": 13
+    },
+    {
+      "id": 204,
+      "invoice_id": 32,
+      "description": "Tamarind concentrate, 6/32 oz case",
+      "quantity": 5,
+      "unit_price_cents": 3118,
+      "amount_cents": 15590,
+      "category_id": 14
+    },
+    {
+      "id": 205,
+      "invoice_id": 32,
+      "description": "Paper food trays, 250 ct",
+      "quantity": 2,
+      "unit_price_cents": 3185,
+      "amount_cents": 6370,
+      "category_id": 15
+    },
+    {
+      "id": 206,
+      "invoice_id": 32,
+      "description": "Foil wrap sheets, 500 ct",
+      "quantity": 1,
+      "unit_price_cents": 3630,
+      "amount_cents": 3630,
+      "category_id": 15
+    },
+    {
+      "id": 207,
+      "invoice_id": 33,
+      "description": "Peeled garlic, 5 lb jar",
+      "quantity": 2,
+      "unit_price_cents": 2690,
+      "amount_cents": 5380,
+      "category_id": 11
+    },
+    {
+      "id": 208,
+      "invoice_id": 33,
+      "description": "Cilantro, 30 ct case",
+      "quantity": 3,
+      "unit_price_cents": 2590,
+      "amount_cents": 7770,
+      "category_id": 11
+    },
+    {
+      "id": 209,
+      "invoice_id": 33,
+      "description": "Roma tomatoes, 25 lb case",
+      "quantity": 1,
+      "unit_price_cents": 4065,
+      "amount_cents": 4065,
+      "category_id": 11
+    },
+    {
+      "id": 210,
+      "invoice_id": 33,
+      "description": "Radishes, 24 ct bunch",
+      "quantity": 2,
+      "unit_price_cents": 1890,
+      "amount_cents": 3780,
+      "category_id": 11
+    },
+    {
+      "id": 211,
+      "invoice_id": 33,
+      "description": "Tomatillos, 20 lb case",
+      "quantity": 2,
+      "unit_price_cents": 3285,
+      "amount_cents": 6570,
+      "category_id": 11
+    },
+    {
+      "id": 212,
+      "invoice_id": 33,
+      "description": "Jalapenos, 10 lb case",
+      "quantity": 2,
+      "unit_price_cents": 2290,
+      "amount_cents": 4580,
+      "category_id": 11
+    },
+    {
+      "id": 213,
+      "invoice_id": 33,
+      "description": "Serrano chiles, 10 lb case",
+      "quantity": 3,
+      "unit_price_cents": 2690,
+      "amount_cents": 8070,
+      "category_id": 11
+    },
+    {
+      "id": 214,
+      "invoice_id": 34,
+      "description": "Medium roast coffee, 5 lb bag",
+      "quantity": 5,
+      "unit_price_cents": 2400,
+      "amount_cents": 12000,
+      "category_id": 14
+    },
+    {
+      "id": 215,
+      "invoice_id": 34,
+      "description": "Cold brew concentrate, 1 gal",
+      "quantity": 5,
+      "unit_price_cents": 1100,
+      "amount_cents": 5500,
+      "category_id": 14
+    },
+    {
+      "id": 216,
+      "invoice_id": 35,
+      "description": "Shrimp 21/25, 5 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 6230,
+      "amount_cents": 18690,
+      "category_id": 10
+    },
+    {
+      "id": 217,
+      "invoice_id": 35,
+      "description": "Beef cheek, 15 lb case",
+      "quantity": 1,
+      "unit_price_cents": 10900,
+      "amount_cents": 10900,
+      "category_id": 10
+    },
+    {
+      "id": 218,
+      "invoice_id": 35,
+      "description": "Pork shoulder, 2/9 lb case",
+      "quantity": 2,
+      "unit_price_cents": 7005,
+      "amount_cents": 14010,
+      "category_id": 10
+    },
+    {
+      "id": 219,
+      "invoice_id": 35,
+      "description": "Boneless chicken thighs, 40 lb case",
+      "quantity": 2,
+      "unit_price_cents": 7200,
+      "amount_cents": 14400,
+      "category_id": 10
+    },
+    {
+      "id": 220,
+      "invoice_id": 35,
+      "description": "Pinto beans, 50 lb bag",
+      "quantity": 4,
+      "unit_price_cents": 4355,
+      "amount_cents": 17420,
+      "category_id": 13
+    },
+    {
+      "id": 221,
+      "invoice_id": 35,
+      "description": "Chipotle peppers, 6/#10 can case",
+      "quantity": 1,
+      "unit_price_cents": 6580,
+      "amount_cents": 6580,
+      "category_id": 13
+    },
+    {
+      "id": 222,
+      "invoice_id": 35,
+      "description": "Queso fresco, 6/2 lb case",
+      "quantity": 2,
+      "unit_price_cents": 4820,
+      "amount_cents": 9640,
+      "category_id": 12
+    },
+    {
+      "id": 223,
+      "invoice_id": 35,
+      "description": "Brown paper bags, 250 ct",
+      "quantity": 4,
+      "unit_price_cents": 2200,
+      "amount_cents": 8800,
+      "category_id": 15
+    },
+    {
+      "id": 224,
+      "invoice_id": 35,
+      "description": "Sanitizer tablets, 150 ct",
+      "quantity": 2,
+      "unit_price_cents": 3500,
+      "amount_cents": 7000,
+      "category_id": 16
+    },
+    {
+      "id": 225,
+      "invoice_id": 35,
+      "description": "Delivery Fee",
+      "quantity": 1,
+      "unit_price_cents": 1400,
+      "amount_cents": 1400,
+      "category_id": 17
+    },
+    {
+      "id": 226,
+      "invoice_id": 36,
+      "description": "Peeled garlic, 5 lb jar",
+      "quantity": 2,
+      "unit_price_cents": 2660,
+      "amount_cents": 5320,
+      "category_id": 11
+    },
+    {
+      "id": 227,
+      "invoice_id": 36,
+      "description": "Avocados, 48 ct case",
+      "quantity": 1,
+      "unit_price_cents": 5515,
+      "amount_cents": 5515,
+      "category_id": 11
+    },
+    {
+      "id": 228,
+      "invoice_id": 36,
+      "description": "Jalapenos, 10 lb case",
+      "quantity": 2,
+      "unit_price_cents": 2265,
+      "amount_cents": 4530,
+      "category_id": 11
+    },
+    {
+      "id": 229,
+      "invoice_id": 36,
+      "description": "Green cabbage, 50 lb bag",
+      "quantity": 2,
+      "unit_price_cents": 2755,
+      "amount_cents": 5510,
+      "category_id": 11
+    },
+    {
+      "id": 230,
+      "invoice_id": 36,
+      "description": "Roma tomatoes, 25 lb case",
+      "quantity": 2,
+      "unit_price_cents": 4040,
+      "amount_cents": 8080,
+      "category_id": 11
+    },
+    {
+      "id": 231,
+      "invoice_id": 36,
+      "description": "Tomatillos, 20 lb case",
+      "quantity": 2,
+      "unit_price_cents": 3250,
+      "amount_cents": 6500,
+      "category_id": 11
+    },
+    {
+      "id": 232,
+      "invoice_id": 36,
+      "description": "Poblano peppers, 20 lb case",
+      "quantity": 1,
+      "unit_price_cents": 3445,
+      "amount_cents": 3445,
+      "category_id": 11
+    },
+    {
+      "id": 233,
+      "invoice_id": 36,
+      "description": "Limes, 200 ct case",
+      "quantity": 1,
+      "unit_price_cents": 4135,
+      "amount_cents": 4135,
+      "category_id": 11
+    },
+    {
+      "id": 234,
+      "invoice_id": 37,
+      "description": "Ladles, 4 oz, 6 ct",
+      "quantity": 8,
+      "unit_price_cents": 4180,
+      "amount_cents": 33440,
+      "category_id": 18
+    },
+    {
+      "id": 235,
+      "invoice_id": 37,
+      "description": "Cutting boards, 6 ct",
+      "quantity": 1,
+      "unit_price_cents": 10370,
+      "amount_cents": 10370,
+      "category_id": 18
+    },
+    {
+      "id": 236,
+      "invoice_id": 37,
+      "description": "Dish detergent, 4/1 gal case",
+      "quantity": 2,
+      "unit_price_cents": 4750,
+      "amount_cents": 9500,
+      "category_id": 16
+    },
+    {
+      "id": 237,
+      "invoice_id": 38,
+      "description": "Shrimp 21/25, 5 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 6500,
+      "amount_cents": 19500,
+      "category_id": 10
+    },
+    {
+      "id": 238,
+      "invoice_id": 38,
+      "description": "Al pastor pork, 20 lb case",
+      "quantity": 1,
+      "unit_price_cents": 9955,
+      "amount_cents": 9955,
+      "category_id": 10
+    },
+    {
+      "id": 239,
+      "invoice_id": 38,
+      "description": "Boneless chicken thighs, 40 lb case",
+      "quantity": 3,
+      "unit_price_cents": 7515,
+      "amount_cents": 22545,
+      "category_id": 10
+    },
+    {
+      "id": 240,
+      "invoice_id": 38,
+      "description": "Hominy, 6/#10 can case",
+      "quantity": 4,
+      "unit_price_cents": 4120,
+      "amount_cents": 16480,
+      "category_id": 13
+    },
+    {
+      "id": 241,
+      "invoice_id": 38,
+      "description": "Dried guajillo chiles, 5 lb bag",
+      "quantity": 1,
+      "unit_price_cents": 4550,
+      "amount_cents": 4550,
+      "category_id": 13
+    },
+    {
+      "id": 242,
+      "invoice_id": 38,
+      "description": "Crema, 6/32 oz case",
+      "quantity": 4,
+      "unit_price_cents": 3250,
+      "amount_cents": 13000,
+      "category_id": 12
+    },
+    {
+      "id": 243,
+      "invoice_id": 38,
+      "description": "Napkins, 6000 ct case",
+      "quantity": 1,
+      "unit_price_cents": 3670,
+      "amount_cents": 3670,
+      "category_id": 15
+    },
+    {
+      "id": 244,
+      "invoice_id": 38,
+      "description": "Nitrile gloves, 10/100 ct case",
+      "quantity": 1,
+      "unit_price_cents": 6530,
+      "amount_cents": 6530,
+      "category_id": 15
+    },
+    {
+      "id": 245,
+      "invoice_id": 38,
+      "description": "Sanitizer tablets, 150 ct",
+      "quantity": 2,
+      "unit_price_cents": 4000,
+      "amount_cents": 8000,
+      "category_id": 16
+    },
+    {
+      "id": 246,
+      "invoice_id": 39,
+      "description": "Medium roast coffee, 5 lb bag",
+      "quantity": 5,
+      "unit_price_cents": 2400,
+      "amount_cents": 12000,
+      "category_id": 14
+    },
+    {
+      "id": 247,
+      "invoice_id": 39,
+      "description": "Decaf roast, 5 lb bag",
+      "quantity": 2,
+      "unit_price_cents": 3100,
+      "amount_cents": 6200,
+      "category_id": 14
+    },
+    {
+      "id": 248,
+      "invoice_id": 40,
+      "description": "Avocados, 48 ct case",
+      "quantity": 1,
+      "unit_price_cents": 5580,
+      "amount_cents": 5580,
+      "category_id": 11
+    },
+    {
+      "id": 249,
+      "invoice_id": 40,
+      "description": "Radishes, 24 ct bunch",
+      "quantity": 3,
+      "unit_price_cents": 1895,
+      "amount_cents": 5685,
+      "category_id": 11
+    },
+    {
+      "id": 250,
+      "invoice_id": 40,
+      "description": "Green cabbage, 50 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 2795,
+      "amount_cents": 8385,
+      "category_id": 11
+    },
+    {
+      "id": 251,
+      "invoice_id": 40,
+      "description": "Tomatillos, 20 lb case",
+      "quantity": 3,
+      "unit_price_cents": 3290,
+      "amount_cents": 9870,
+      "category_id": 11
+    },
+    {
+      "id": 252,
+      "invoice_id": 40,
+      "description": "Limes, 200 ct case",
+      "quantity": 2,
+      "unit_price_cents": 4190,
+      "amount_cents": 8380,
+      "category_id": 11
+    },
+    {
+      "id": 253,
+      "invoice_id": 40,
+      "description": "Serrano chiles, 10 lb case",
+      "quantity": 2,
+      "unit_price_cents": 2695,
+      "amount_cents": 5390,
+      "category_id": 11
+    },
+    {
+      "id": 254,
+      "invoice_id": 41,
+      "description": "Ground beef 80/20, 10 lb chub",
+      "quantity": 4,
+      "unit_price_cents": 3735,
+      "amount_cents": 14940,
+      "category_id": 10
+    },
+    {
+      "id": 255,
+      "invoice_id": 41,
+      "description": "Tilapia fillets, 10 lb case",
+      "quantity": 3,
+      "unit_price_cents": 7665,
+      "amount_cents": 22995,
+      "category_id": 10
+    },
+    {
+      "id": 256,
+      "invoice_id": 41,
+      "description": "Shrimp 21/25, 5 lb bag",
+      "quantity": 2,
+      "unit_price_cents": 6210,
+      "amount_cents": 12420,
+      "category_id": 10
+    },
+    {
+      "id": 257,
+      "invoice_id": 41,
+      "description": "Beef cheek, 15 lb case",
+      "quantity": 1,
+      "unit_price_cents": 10885,
+      "amount_cents": 10885,
+      "category_id": 10
+    },
+    {
+      "id": 258,
+      "invoice_id": 41,
+      "description": "Ground cumin, 5 lb tub",
+      "quantity": 3,
+      "unit_price_cents": 3920,
+      "amount_cents": 11760,
+      "category_id": 13
+    },
+    {
+      "id": 259,
+      "invoice_id": 41,
+      "description": "Long grain rice, 50 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 3615,
+      "amount_cents": 10845,
+      "category_id": 13
+    },
+    {
+      "id": 260,
+      "invoice_id": 41,
+      "description": "Chipotle peppers, 6/#10 can case",
+      "quantity": 1,
+      "unit_price_cents": 6230,
+      "amount_cents": 6230,
+      "category_id": 13
+    },
+    {
+      "id": 261,
+      "invoice_id": 41,
+      "description": "Tomatillos, 20 lb case",
+      "quantity": 4,
+      "unit_price_cents": 2450,
+      "amount_cents": 9800,
+      "category_id": 11
+    },
+    {
+      "id": 262,
+      "invoice_id": 41,
+      "description": "Brown paper bags, 250 ct",
+      "quantity": 1,
+      "unit_price_cents": 3180,
+      "amount_cents": 3180,
+      "category_id": 15
+    },
+    {
+      "id": 263,
+      "invoice_id": 41,
+      "description": "Nitrile gloves, 10/100 ct case",
+      "quantity": 1,
+      "unit_price_cents": 7020,
+      "amount_cents": 7020,
+      "category_id": 15
+    },
+    {
+      "id": 264,
+      "invoice_id": 41,
+      "description": "Delivery Fee",
+      "quantity": 1,
+      "unit_price_cents": 1800,
+      "amount_cents": 1800,
+      "category_id": 17
+    },
+    {
+      "id": 265,
+      "invoice_id": 42,
+      "description": "Tortilla warmers, 12 ct",
+      "quantity": 1,
+      "unit_price_cents": 10080,
+      "amount_cents": 10080,
+      "category_id": 18
+    },
+    {
+      "id": 266,
+      "invoice_id": 42,
+      "description": "Stainless tongs, 12 ct",
+      "quantity": 8,
+      "unit_price_cents": 3865,
+      "amount_cents": 30920,
+      "category_id": 18
+    },
+    {
+      "id": 267,
+      "invoice_id": 42,
+      "description": "Deli containers, 16 oz, 240 ct",
+      "quantity": 3,
+      "unit_price_cents": 3410,
+      "amount_cents": 10230,
+      "category_id": 15
+    },
+    {
+      "id": 268,
+      "invoice_id": 42,
+      "description": "Floor cleaner, 4/1 gal case",
+      "quantity": 2,
+      "unit_price_cents": 5000,
+      "amount_cents": 10000,
+      "category_id": 16
+    },
+    {
+      "id": 269,
+      "invoice_id": 43,
+      "description": "Beef cheek, 15 lb case",
+      "quantity": 1,
+      "unit_price_cents": 11310,
+      "amount_cents": 11310,
+      "category_id": 10
+    },
+    {
+      "id": 270,
+      "invoice_id": 43,
+      "description": "Boneless chicken thighs, 40 lb case",
+      "quantity": 4,
+      "unit_price_cents": 7475,
+      "amount_cents": 29900,
+      "category_id": 10
+    },
+    {
+      "id": 271,
+      "invoice_id": 43,
+      "description": "Pork shoulder, 2/9 lb case",
+      "quantity": 4,
+      "unit_price_cents": 7270,
+      "amount_cents": 29080,
+      "category_id": 10
+    },
+    {
+      "id": 272,
+      "invoice_id": 43,
+      "description": "Mineral water, 24 ct case",
+      "quantity": 10,
+      "unit_price_cents": 2740,
+      "amount_cents": 27400,
+      "category_id": 14
+    },
+    {
+      "id": 273,
+      "invoice_id": 43,
+      "description": "Fuel surchg",
+      "quantity": 1,
+      "unit_price_cents": 950,
+      "amount_cents": 950,
+      "category_id": null
+    },
+    {
+      "id": 274,
+      "invoice_id": 44,
+      "description": "Credit: avocados, damaged",
+      "quantity": -1,
+      "unit_price_cents": 3120,
+      "amount_cents": -3120,
+      "category_id": 11
+    },
+    {
+      "id": 275,
+      "invoice_id": 45,
+      "description": "Corn tortillas, 6 in, 5 lb case",
+      "quantity": 8,
+      "unit_price_cents": 1150,
+      "amount_cents": 9200,
+      "category_id": 13
+    },
+    {
+      "id": 276,
+      "invoice_id": 45,
+      "description": "Flour tortillas, 10 in, 5 lb case",
+      "quantity": 4,
+      "unit_price_cents": 1400,
+      "amount_cents": 5600,
+      "category_id": 13
+    },
+    {
+      "id": 277,
+      "invoice_id": 46,
+      "description": "Medium roast coffee, 5 lb bag",
+      "quantity": 6,
+      "unit_price_cents": 2400,
+      "amount_cents": 14400,
+      "category_id": 14
+    },
+    {
+      "id": 278,
+      "invoice_id": 46,
+      "description": "Cold brew concentrate, 1 gal",
+      "quantity": 4,
+      "unit_price_cents": 1300,
+      "amount_cents": 5200,
+      "category_id": 14
+    },
+    {
+      "id": 279,
+      "invoice_id": 47,
+      "description": "White onions, 50 lb bag",
+      "quantity": 2,
+      "unit_price_cents": 2905,
+      "amount_cents": 5810,
+      "category_id": 11
+    },
+    {
+      "id": 280,
+      "invoice_id": 47,
+      "description": "Poblano peppers, 20 lb case",
+      "quantity": 2,
+      "unit_price_cents": 3390,
+      "amount_cents": 6780,
+      "category_id": 11
+    },
+    {
+      "id": 281,
+      "invoice_id": 47,
+      "description": "Serrano chiles, 10 lb case",
+      "quantity": 2,
+      "unit_price_cents": 2615,
+      "amount_cents": 5230,
+      "category_id": 11
+    },
+    {
+      "id": 282,
+      "invoice_id": 47,
+      "description": "Peeled garlic, 5 lb jar",
+      "quantity": 3,
+      "unit_price_cents": 2615,
+      "amount_cents": 7845,
+      "category_id": 11
+    },
+    {
+      "id": 283,
+      "invoice_id": 47,
+      "description": "Limes, 200 ct case",
+      "quantity": 1,
+      "unit_price_cents": 4070,
+      "amount_cents": 4070,
+      "category_id": 11
+    },
+    {
+      "id": 284,
+      "invoice_id": 47,
+      "description": "Tomatillos, 20 lb case",
+      "quantity": 2,
+      "unit_price_cents": 3195,
+      "amount_cents": 6390,
+      "category_id": 11
+    },
+    {
+      "id": 285,
+      "invoice_id": 47,
+      "description": "Jalapenos, 10 lb case",
+      "quantity": 2,
+      "unit_price_cents": 2225,
+      "amount_cents": 4450,
+      "category_id": 11
+    },
+    {
+      "id": 286,
+      "invoice_id": 48,
+      "description": "Shrimp 21/25, 5 lb bag",
+      "quantity": 3,
+      "unit_price_cents": 6245,
+      "amount_cents": 18735,
+      "category_id": 10
+    },
+    {
+      "id": 287,
+      "invoice_id": 48,
+      "description": "Skirt steak, 2/10 lb case",
+      "quantity": 1,
+      "unit_price_cents": 16385,
+      "amount_cents": 16385,
+      "category_id": 10
+    },
+    {
+      "id": 288,
+      "invoice_id": 48,
+      "description": "Boneless chicken thighs, 40 lb case",
+      "quantity": 4,
+      "unit_price_cents": 7220,
+      "amount_cents": 28880,
+      "category_id": 10
+    },
+    {
+      "id": 289,
+      "invoice_id": 48,
+      "description": "Black beans, 25 lb bag",
+      "quantity": 6,
+      "unit_price_cents": 2845,
+      "amount_cents": 17070,
+      "category_id": 13
+    },
+    {
+      "id": 290,
+      "invoice_id": 48,
+      "description": "Hominy, 6/#10 can case",
+      "quantity": 1,
+      "unit_price_cents": 3990,
+      "amount_cents": 3990,
+      "category_id": 13
+    },
+    {
+      "id": 291,
+      "invoice_id": 48,
+      "description": "Queso fresco, 6/2 lb case",
+      "quantity": 2,
+      "unit_price_cents": 6000,
+      "amount_cents": 12000,
+      "category_id": 12
+    },
+    {
+      "id": 292,
+      "invoice_id": 48,
+      "description": "Nitrile gloves, 10/100 ct case",
+      "quantity": 1,
+      "unit_price_cents": 6725,
+      "amount_cents": 6725,
+      "category_id": 15
+    },
+    {
+      "id": 293,
+      "invoice_id": 48,
+      "description": "Paper food trays, 250 ct",
+      "quantity": 5,
+      "unit_price_cents": 3055,
+      "amount_cents": 15275,
+      "category_id": 15
+    },
+    {
+      "id": 294,
+      "invoice_id": 48,
+      "description": "Delivery Fee",
+      "quantity": 1,
+      "unit_price_cents": 1400,
+      "amount_cents": 1400,
+      "category_id": 17
+    }
+  ]
+}
