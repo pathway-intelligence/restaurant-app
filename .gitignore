@@ -5,3 +5,4 @@ next-env.d.ts
 db/*.sqlite
 db/*.sqlite-*
 .DS_Store
+.env*.local

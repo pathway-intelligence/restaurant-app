@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { sendAgain } from "@/app/actions";
 import { currentBusiness } from "@/lib/current-business";
 import { getInvoice, listInvoiceLines } from "@/lib/db";
-import { formatDate, formatMoney, formatQuantity } from "@/lib/format";
+import { formatDate, formatDay, formatMoney, formatQuantity } from "@/lib/format";
 
 export const metadata: Metadata = { title: "Invoice" };
 
@@ -26,6 +27,20 @@ export default async function InvoicePage({ params }: { params: Promise<{ id: st
           Invoice {invoice.invoice_number} · {formatDate(invoice.invoice_date)}
         </p>
       </div>
+      {invoice.qbo_status && (
+        <div className={`quickbooks-strip quickbooks-strip-${invoice.qbo_status}`}>
+          <p className="quickbooks-strip-text">
+            {invoice.qbo_status === "sent"
+              ? `In QuickBooks as bill ${invoice.qbo_bill_id} · sent ${formatDay(invoice.qbo_sent_at!)}`
+              : `Couldn't send to QuickBooks: ${invoice.qbo_error}`}
+          </p>
+          <form action={sendAgain.bind(null, invoice.id)}>
+            <button className="button button-secondary" type="submit">
+              Send again
+            </button>
+          </form>
+        </div>
+      )}
       <div>
         <table className="table">
           <colgroup>

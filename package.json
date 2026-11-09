@@ -11,7 +11,9 @@
     "build": "next build",
     "start": "npm run db:migrate && next start",
     "db:migrate": "node --experimental-strip-types --disable-warning=ExperimentalWarning db/migrate.ts",
-    "db:reset": "node --experimental-strip-types --disable-warning=ExperimentalWarning db/migrate.ts --reset"
+    "db:reset": "node --experimental-strip-types --disable-warning=ExperimentalWarning db/migrate.ts --reset",
+    "quickbooks:send": "node --experimental-strip-types --disable-warning=ExperimentalWarning --env-file-if-exists=.env.local scripts/send.ts",
+    "test": "node --experimental-strip-types --disable-warning=ExperimentalWarning --test lib/quickbooks.test.ts"
   },
   "dependencies": {
     "next": "^16.4.5",

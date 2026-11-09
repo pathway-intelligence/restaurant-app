@@ -6,6 +6,8 @@ import { formatDate, formatMoney } from "@/lib/format";
 
 export const metadata: Metadata = { title: "Invoices" };
 
+const QUICKBOOKS_LABELS = { sent: "Sent", error: "Error" };
+
 export default async function InvoicesPage() {
   const business = await currentBusiness();
   const invoices = listInvoices(business.id);
@@ -21,6 +23,7 @@ export default async function InvoicesPage() {
           <col style={{ width: 160 }} />
           <col />
           <col style={{ width: 180 }} />
+          <col style={{ width: 120 }} />
           <col style={{ width: 96 }} />
           <col style={{ width: 160 }} />
         </colgroup>
@@ -29,6 +32,7 @@ export default async function InvoicesPage() {
             <th>Date</th>
             <th>Distributor</th>
             <th>Invoice #</th>
+            <th>QuickBooks</th>
             <th className="right">Items</th>
             <th className="right">Total</th>
           </tr>
@@ -42,6 +46,15 @@ export default async function InvoicesPage() {
                 <Link href={`/invoices/${invoice.id}`} prefetch={false}>
                   {invoice.invoice_number}
                 </Link>
+              </td>
+              <td>
+                {invoice.qbo_status ? (
+                  <span className={`status status-${invoice.qbo_status}`}>
+                    {QUICKBOOKS_LABELS[invoice.qbo_status]}
+                  </span>
+                ) : (
+                  <span className="supporting">—</span>
+                )}
               </td>
               <td className="right supporting">{invoice.item_count}</td>
               <td className="right">{formatMoney(invoice.total_cents)}</td>

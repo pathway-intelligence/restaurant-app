@@ -5,7 +5,16 @@ import { DatabaseSync } from "node:sqlite";
 const DB_DIR = join(process.cwd(), "db");
 const DB_PATH = join(DB_DIR, "restaurant.sqlite");
 const MIGRATIONS_DIR = join(DB_DIR, "migrations");
-const SEED_TABLES = ["businesses", "categories", "distributors", "invoices", "purchases"];
+const SEED_TABLES = [
+  "businesses",
+  "categories",
+  "distributors",
+  "invoices",
+  "purchases",
+  "qbo_accounts",
+  "category_accounts",
+  "qbo_sends",
+];
 
 if (process.argv.includes("--reset")) {
   for (const suffix of ["", "-journal", "-wal", "-shm"]) {
@@ -24,21 +33,19 @@ db.exec(`CREATE TABLE IF NOT EXISTS schema_migrations (
 const applied = new Set(
   db.prepare("SELECT version FROM schema_migrations").all().map((row) => row.version),
 );
-let needsSeed = applied.size === 0;
+const isNew = applied.size === 0;
 
-const files = readdirSync(MIGRATIONS_DIR).filter((file) => file.endsWith(".sql")).sort();
+const pending = readdirSync(MIGRATIONS_DIR)
+  .filter((file) => file.endsWith(".sql") && !applied.has(file))
+  .sort();
 
-for (const file of files) {
-  if (applied.has(file)) continue;
+for (const [index, file] of pending.entries()) {
   db.exec("BEGIN");
   try {
     db.exec(readFileSync(join(MIGRATIONS_DIR, file), "utf8"));
     db.prepare("INSERT INTO schema_migrations (version) VALUES (?)").run(file);
     console.log(`Applied ${file}`);
-    if (needsSeed) {
-      loadSeed();
-      needsSeed = false;
-    }
+    if (isNew && index === pending.length - 1) loadSeed();
     db.exec("COMMIT");
   } catch (error) {
     db.exec("ROLLBACK");
@@ -48,7 +55,8 @@ for (const file of files) {
 
 db.close();
 
-// Runs right after the first migration, so later migrations see the same rows on every database.
+// A new database gets the seed after its last migration, because the seed holds rows for the
+// current schema.
 function loadSeed() {
   const seed = JSON.parse(readFileSync(join(DB_DIR, "seed.json"), "utf8"));
   for (const table of SEED_TABLES) {

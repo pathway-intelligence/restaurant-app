@@ -2,11 +2,15 @@
   "businesses": [
     {
       "id": 1,
-      "name": "Alder Street Kitchen"
+      "name": "Alder Street Kitchen",
+      "qbo_realm_id": "1001",
+      "qbo_send_from": "2026-10-15"
     },
     {
       "id": 2,
-      "name": "Juniper Taqueria"
+      "name": "Juniper Taqueria",
+      "qbo_realm_id": "1002",
+      "qbo_send_from": "2026-10-15"
     }
   ],
   "categories": [
@@ -170,7 +174,11 @@
       "distributor_id": 1,
       "invoice_number": "87365",
       "invoice_date": "2026-09-11",
-      "total_cents": 175190
+      "total_cents": 175190,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 2,
@@ -178,7 +186,11 @@
       "distributor_id": 1,
       "invoice_number": "87490",
       "invoice_date": "2026-09-18",
-      "total_cents": 201585
+      "total_cents": 201585,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 3,
@@ -186,7 +198,11 @@
       "distributor_id": 2,
       "invoice_number": "GH-5301",
       "invoice_date": "2026-09-22",
-      "total_cents": 67550
+      "total_cents": 67550,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 4,
@@ -194,7 +210,11 @@
       "distributor_id": 3,
       "invoice_number": "40431",
       "invoice_date": "2026-09-23",
-      "total_cents": 164540
+      "total_cents": 164540,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 5,
@@ -202,7 +222,11 @@
       "distributor_id": 1,
       "invoice_number": "87603",
       "invoice_date": "2026-09-25",
-      "total_cents": 187640
+      "total_cents": 187640,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 6,
@@ -210,7 +234,11 @@
       "distributor_id": 2,
       "invoice_number": "GH-5344",
       "invoice_date": "2026-09-28",
-      "total_cents": 70210
+      "total_cents": 70210,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 7,
@@ -218,7 +246,11 @@
       "distributor_id": 5,
       "invoice_number": "TL-2212",
       "invoice_date": "2026-09-29",
-      "total_cents": 14200
+      "total_cents": 14200,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 8,
@@ -226,7 +258,11 @@
       "distributor_id": 3,
       "invoice_number": "40555",
       "invoice_date": "2026-09-30",
-      "total_cents": 162240
+      "total_cents": 162240,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 9,
@@ -234,7 +270,11 @@
       "distributor_id": 1,
       "invoice_number": "87711",
       "invoice_date": "2026-10-02",
-      "total_cents": 224410
+      "total_cents": 224410,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 10,
@@ -242,7 +282,11 @@
       "distributor_id": 2,
       "invoice_number": "GH-5390",
       "invoice_date": "2025-10-05",
-      "total_cents": 73145
+      "total_cents": 73145,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 11,
@@ -250,7 +294,11 @@
       "distributor_id": 4,
       "invoice_number": "7634",
       "invoice_date": "2026-10-06",
-      "total_cents": 37710
+      "total_cents": 37710,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 12,
@@ -258,7 +306,11 @@
       "distributor_id": 4,
       "invoice_number": "7634",
       "invoice_date": "2026-10-06",
-      "total_cents": 37710
+      "total_cents": 37710,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 13,
@@ -266,7 +318,11 @@
       "distributor_id": 3,
       "invoice_number": "40688",
       "invoice_date": "2026-10-07",
-      "total_cents": 137780
+      "total_cents": 137780,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 14,
@@ -274,7 +330,11 @@
       "distributor_id": 1,
       "invoice_number": "87842",
       "invoice_date": "2026-10-09",
-      "total_cents": 198725
+      "total_cents": 198725,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 15,
@@ -282,7 +342,11 @@
       "distributor_id": 2,
       "invoice_number": "GH-5433",
       "invoice_date": "2026-10-12",
-      "total_cents": 68420
+      "total_cents": 68420,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 16,
@@ -290,7 +354,11 @@
       "distributor_id": 4,
       "invoice_number": "7668",
       "invoice_date": "2026-10-13",
-      "total_cents": 39240
+      "total_cents": 39240,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 17,
@@ -298,7 +366,11 @@
       "distributor_id": 5,
       "invoice_number": "TL-2251",
       "invoice_date": "2026-10-13",
-      "total_cents": 14200
+      "total_cents": 14200,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 18,
@@ -306,7 +378,11 @@
       "distributor_id": 1,
       "invoice_number": "87996",
       "invoice_date": "2026-10-16",
-      "total_cents": 210630
+      "total_cents": 210630,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1025",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-22 23:00:00"
     },
     {
       "id": 19,
@@ -314,7 +390,11 @@
       "distributor_id": 2,
       "invoice_number": "GH-5478",
       "invoice_date": "2026-10-19",
-      "total_cents": 55890
+      "total_cents": 55890,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1026",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-22 23:00:00"
     },
     {
       "id": 20,
@@ -322,7 +402,11 @@
       "distributor_id": 4,
       "invoice_number": "7702",
       "invoice_date": "2026-10-20",
-      "total_cents": 37160
+      "total_cents": 37160,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1027",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-22 23:00:00"
     },
     {
       "id": 21,
@@ -330,7 +414,11 @@
       "distributor_id": 3,
       "invoice_number": "40812",
       "invoice_date": "2026-10-21",
-      "total_cents": 121035
+      "total_cents": 121035,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1028",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-22 23:00:00"
     },
     {
       "id": 22,
@@ -338,7 +426,11 @@
       "distributor_id": 6,
       "invoice_number": "F-30418",
       "invoice_date": "2026-10-22",
-      "total_cents": 342000
+      "total_cents": 342000,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1029",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-22 23:00:00"
     },
     {
       "id": 23,
@@ -346,7 +438,11 @@
       "distributor_id": 7,
       "invoice_number": "1186",
       "invoice_date": "2026-10-22",
-      "total_cents": 22800
+      "total_cents": 22800,
+      "qbo_status": "error",
+      "qbo_bill_id": null,
+      "qbo_error": "No QuickBooks vendor named Larkspur Coffee Roasters",
+      "qbo_sent_at": null
     },
     {
       "id": 24,
@@ -354,7 +450,11 @@
       "distributor_id": 1,
       "invoice_number": "88107",
       "invoice_date": "2026-10-23",
-      "total_cents": 190465
+      "total_cents": 190465,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1030",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-23 23:00:00"
     },
     {
       "id": 25,
@@ -362,7 +462,11 @@
       "distributor_id": 2,
       "invoice_number": "CM-0412",
       "invoice_date": "2026-10-26",
-      "total_cents": -4650
+      "total_cents": -4650,
+      "qbo_status": "error",
+      "qbo_bill_id": null,
+      "qbo_error": "The bill total cannot be negative",
+      "qbo_sent_at": null
     },
     {
       "id": 26,
@@ -370,7 +474,11 @@
       "distributor_id": 5,
       "invoice_number": "TL-2290",
       "invoice_date": "2026-10-27",
-      "total_cents": 14200
+      "total_cents": 14200,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1031",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-27 23:00:00"
     },
     {
       "id": 27,
@@ -378,7 +486,11 @@
       "distributor_id": 4,
       "invoice_number": "7731",
       "invoice_date": "2026-10-28",
-      "total_cents": 38410
+      "total_cents": 38410,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1032",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-28 23:00:00"
     },
     {
       "id": 28,
@@ -386,7 +498,11 @@
       "distributor_id": 3,
       "invoice_number": "40937",
       "invoice_date": "2026-10-28",
-      "total_cents": 148620
+      "total_cents": 148620,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1033",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-28 23:00:00"
     },
     {
       "id": 29,
@@ -394,7 +510,11 @@
       "distributor_id": 2,
       "invoice_number": "GH-5521",
       "invoice_date": "2026-10-29",
-      "total_cents": 61275
+      "total_cents": 61275,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1035",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-30 10:14:00"
     },
     {
       "id": 30,
@@ -402,7 +522,11 @@
       "distributor_id": 1,
       "invoice_number": "88214",
       "invoice_date": "2026-10-30",
-      "total_cents": 231840
+      "total_cents": 231840,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1036",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-30 23:00:00"
     },
     {
       "id": 31,
@@ -410,7 +534,11 @@
       "distributor_id": 9,
       "invoice_number": "GH-7604",
       "invoice_date": "2026-09-21",
-      "total_cents": 38940
+      "total_cents": 38940,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 32,
@@ -418,7 +546,11 @@
       "distributor_id": 8,
       "invoice_number": "87776",
       "invoice_date": "2026-09-24",
-      "total_cents": 115590
+      "total_cents": 115590,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 33,
@@ -426,7 +558,11 @@
       "distributor_id": 9,
       "invoice_number": "GH-7650",
       "invoice_date": "2026-09-28",
-      "total_cents": 40215
+      "total_cents": 40215,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 34,
@@ -434,7 +570,11 @@
       "distributor_id": 10,
       "invoice_number": "7699",
       "invoice_date": "2026-10-01",
-      "total_cents": 17500
+      "total_cents": 17500,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 35,
@@ -442,7 +582,11 @@
       "distributor_id": 8,
       "invoice_number": "87855",
       "invoice_date": "2026-10-05",
-      "total_cents": 108840
+      "total_cents": 108840,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 36,
@@ -450,7 +594,11 @@
       "distributor_id": 9,
       "invoice_number": "GH-7701",
       "invoice_date": "2026-10-07",
-      "total_cents": 43035
+      "total_cents": 43035,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 37,
@@ -458,7 +606,11 @@
       "distributor_id": 12,
       "invoice_number": "F-11987",
       "invoice_date": "2026-10-09",
-      "total_cents": 53310
+      "total_cents": 53310,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 38,
@@ -466,7 +618,11 @@
       "distributor_id": 8,
       "invoice_number": "87934",
       "invoice_date": "2026-10-12",
-      "total_cents": 104230
+      "total_cents": 104230,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 39,
@@ -474,7 +630,11 @@
       "distributor_id": 10,
       "invoice_number": "7741",
       "invoice_date": "2026-10-14",
-      "total_cents": 18200
+      "total_cents": 18200,
+      "qbo_status": null,
+      "qbo_bill_id": null,
+      "qbo_error": null,
+      "qbo_sent_at": null
     },
     {
       "id": 40,
@@ -482,7 +642,11 @@
       "distributor_id": 9,
       "invoice_number": "GH-7766",
       "invoice_date": "2026-10-16",
-      "total_cents": 44460
+      "total_cents": 44460,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1017",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-22 23:00:00"
     },
     {
       "id": 41,
@@ -490,7 +654,11 @@
       "distributor_id": 8,
       "invoice_number": "88012",
       "invoice_date": "2026-10-19",
-      "total_cents": 111875
+      "total_cents": 111875,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1018",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-22 23:00:00"
     },
     {
       "id": 42,
@@ -498,7 +666,11 @@
       "distributor_id": 12,
       "invoice_number": "F-12044",
       "invoice_date": "2026-10-21",
-      "total_cents": 61230
+      "total_cents": 61230,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1019",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-22 23:00:00"
     },
     {
       "id": 43,
@@ -506,7 +678,11 @@
       "distributor_id": 8,
       "invoice_number": "88107",
       "invoice_date": "2026-10-23",
-      "total_cents": 98640
+      "total_cents": 98640,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1020",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-23 23:00:00"
     },
     {
       "id": 44,
@@ -514,7 +690,11 @@
       "distributor_id": 9,
       "invoice_number": "GH-CR-19",
       "invoice_date": "2026-10-26",
-      "total_cents": -3120
+      "total_cents": -3120,
+      "qbo_status": "error",
+      "qbo_bill_id": null,
+      "qbo_error": "The bill total cannot be negative",
+      "qbo_sent_at": null
     },
     {
       "id": 45,
@@ -522,7 +702,11 @@
       "distributor_id": 11,
       "invoice_number": "M-221",
       "invoice_date": "2026-10-27",
-      "total_cents": 14800
+      "total_cents": 14800,
+      "qbo_status": "error",
+      "qbo_bill_id": null,
+      "qbo_error": "No QuickBooks vendor named Molina Tortilleria",
+      "qbo_sent_at": null
     },
     {
       "id": 46,
@@ -530,7 +714,11 @@
       "distributor_id": 10,
       "invoice_number": "7790",
       "invoice_date": "2026-10-28",
-      "total_cents": 19600
+      "total_cents": 19600,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1021",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-28 23:00:00"
     },
     {
       "id": 47,
@@ -538,7 +726,11 @@
       "distributor_id": 9,
       "invoice_number": "GH-7812",
       "invoice_date": "2026-10-29",
-      "total_cents": 41825
+      "total_cents": 41825,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1022",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-29 23:00:00"
     },
     {
       "id": 48,
@@ -546,7 +738,11 @@
       "distributor_id": 8,
       "invoice_number": "88230",
       "invoice_date": "2026-10-30",
-      "total_cents": 120460
+      "total_cents": 120460,
+      "qbo_status": "sent",
+      "qbo_bill_id": "1023",
+      "qbo_error": null,
+      "qbo_sent_at": "2026-10-30 23:00:00"
     }
   ],
   "purchases": [
@@ -3195,6 +3391,808 @@
       "unit_price_cents": 1400,
       "amount_cents": 1400,
       "category_id": 17
+    }
+  ],
+  "qbo_accounts": [
+    {
+      "id": "10",
+      "name": "Checking",
+      "account_type": "Bank",
+      "classification": "Asset",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "12",
+      "name": "Rent",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "13",
+      "name": "Utilities",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "14",
+      "name": "Food Inventory",
+      "account_type": "Other Current Asset",
+      "classification": "Asset",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "15",
+      "name": "Beverage Inventory",
+      "account_type": "Other Current Asset",
+      "classification": "Asset",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "20",
+      "name": "Accounts Payable",
+      "account_type": "Accounts Payable",
+      "classification": "Liability",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "30",
+      "name": "COGS - Produce",
+      "account_type": "Cost of Goods Sold",
+      "classification": "Expense",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "31",
+      "name": "COGS - Dairy",
+      "account_type": "Cost of Goods Sold",
+      "classification": "Expense",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "40",
+      "name": "Cost of Goods Sold:Food Cost",
+      "account_type": "Cost of Goods Sold",
+      "classification": "Expense",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "41",
+      "name": "Cost of Goods Sold:Beverage Cost",
+      "account_type": "Cost of Goods Sold",
+      "classification": "Expense",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "42",
+      "name": "Food Purchases",
+      "account_type": "Cost of Goods Sold",
+      "classification": "Expense",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "43",
+      "name": "Cost of Goods Sold:Packaging Cost",
+      "account_type": "Cost of Goods Sold",
+      "classification": "Expense",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "50",
+      "name": "Cleaning Supplies",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "51",
+      "name": "Linen Service",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "52",
+      "name": "Kitchen Supplies",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "53",
+      "name": "Freight & Delivery",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "54",
+      "name": "Rent",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "55",
+      "name": "Utilities",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "56",
+      "name": "Repairs & Maintenance",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-01 16:20:00"
+    },
+    {
+      "id": "16",
+      "name": "Checking",
+      "account_type": "Bank",
+      "classification": "Asset",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "21",
+      "name": "Food Sales",
+      "account_type": "Income",
+      "classification": "Revenue",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "22",
+      "name": "Beverage Sales",
+      "account_type": "Income",
+      "classification": "Revenue",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "32",
+      "name": "COGS - Food",
+      "account_type": "Cost of Goods Sold",
+      "classification": "Expense",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "33",
+      "name": "Supplies Expense",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "34",
+      "name": "Freight & Delivery",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "35",
+      "name": "Smallwares & Equipment",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "36",
+      "name": "Linen & Uniforms",
+      "account_type": "Expense",
+      "classification": "Expense",
+      "imported_at": "2026-10-02 15:05:00"
+    },
+    {
+      "id": "37",
+      "name": "COGS - Beverage",
+      "account_type": "Cost of Goods Sold",
+      "classification": "Expense",
+      "imported_at": "2026-10-02 15:05:00"
+    }
+  ],
+  "category_accounts": [
+    {
+      "category_id": 1,
+      "qbo_account_id": "12"
+    },
+    {
+      "category_id": 2,
+      "qbo_account_id": "12"
+    },
+    {
+      "category_id": 3,
+      "qbo_account_id": "12"
+    },
+    {
+      "category_id": 4,
+      "qbo_account_id": "12"
+    },
+    {
+      "category_id": 5,
+      "qbo_account_id": "13"
+    },
+    {
+      "category_id": 6,
+      "qbo_account_id": "14"
+    },
+    {
+      "category_id": 7,
+      "qbo_account_id": "14"
+    },
+    {
+      "category_id": 8,
+      "qbo_account_id": "14"
+    },
+    {
+      "category_id": 9,
+      "qbo_account_id": "15"
+    },
+    {
+      "category_id": 10,
+      "qbo_account_id": "14"
+    },
+    {
+      "category_id": 11,
+      "qbo_account_id": "14"
+    },
+    {
+      "category_id": 12,
+      "qbo_account_id": "14"
+    },
+    {
+      "category_id": 13,
+      "qbo_account_id": "14"
+    },
+    {
+      "category_id": 14,
+      "qbo_account_id": "15"
+    },
+    {
+      "category_id": 15,
+      "qbo_account_id": "14"
+    },
+    {
+      "category_id": 16,
+      "qbo_account_id": "14"
+    },
+    {
+      "category_id": 17,
+      "qbo_account_id": "14"
+    },
+    {
+      "category_id": 18,
+      "qbo_account_id": "14"
+    }
+  ],
+  "qbo_sends": [
+    {
+      "id": 1,
+      "invoice_id": 18,
+      "sent_at": "2026-10-22 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"87996\",\"TxnDate\":\"2026-10-16\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":69.8,\"Description\":\"Shrimp 16/20, 5 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":435.6,\"Description\":\"Chicken thighs, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":419.6,\"Description\":\"Italian sausage, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":48.3,\"Description\":\"Lemons, 115 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":199.1,\"Description\":\"Italian parsley, 12 ct bunch\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":36.45,\"Description\":\"White beans, 6/#10 can case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":285.3,\"Description\":\"Kosher salt, 12/3 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":218.25,\"Description\":\"All-purpose flour, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":45.9,\"Description\":\"Parchment sheets, 1000 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":222.6,\"Description\":\"To-go boxes, 200 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":110,\"Description\":\"Scrub pads, 20 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1025\",\"VendorRef\":{\"value\":\"57\",\"name\":\"Bayline Foods\"},\"DocNumber\":\"87996\",\"TxnDate\":\"2026-10-16\",\"DueDate\":null,\"TotalAmt\":2090.9,\"Balance\":2090.9,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":69.8,\"Description\":\"Shrimp 16/20, 5 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"2\",\"Amount\":435.6,\"Description\":\"Chicken thighs, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"3\",\"Amount\":419.6,\"Description\":\"Italian sausage, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"4\",\"Amount\":48.3,\"Description\":\"Lemons, 115 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"5\",\"Amount\":199.1,\"Description\":\"Italian parsley, 12 ct bunch\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"6\",\"Amount\":36.45,\"Description\":\"White beans, 6/#10 can case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"7\",\"Amount\":285.3,\"Description\":\"Kosher salt, 12/3 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"8\",\"Amount\":218.25,\"Description\":\"All-purpose flour, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"9\",\"Amount\":45.9,\"Description\":\"Parchment sheets, 1000 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}},{\"Id\":\"10\",\"Amount\":222.6,\"Description\":\"To-go boxes, 200 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}},{\"Id\":\"11\",\"Amount\":110,\"Description\":\"Scrub pads, 20 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}}]}"
+    },
+    {
+      "id": 2,
+      "invoice_id": 19,
+      "sent_at": "2026-10-22 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"GH-5478\",\"TxnDate\":\"2026-10-19\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":78.9,\"Description\":\"Cucumbers, 24 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":76.8,\"Description\":\"Button mushrooms, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":41.35,\"Description\":\"Roma tomatoes, 25 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":69.75,\"Description\":\"Spring mix, 3 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":72.8,\"Description\":\"Celery, 30 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":64.7,\"Description\":\"Russet potatoes, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":36.4,\"Description\":\"Italian parsley, 12 ct bunch\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":118.2,\"Description\":\"Green bell peppers, 25 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1026\",\"VendorRef\":{\"value\":\"61\",\"name\":\"Greenhollow Produce\"},\"DocNumber\":\"GH-5478\",\"TxnDate\":\"2026-10-19\",\"DueDate\":null,\"TotalAmt\":558.9,\"Balance\":558.9,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":78.9,\"Description\":\"Cucumbers, 24 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"2\",\"Amount\":76.8,\"Description\":\"Button mushrooms, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"3\",\"Amount\":41.35,\"Description\":\"Roma tomatoes, 25 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"4\",\"Amount\":69.75,\"Description\":\"Spring mix, 3 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"5\",\"Amount\":72.8,\"Description\":\"Celery, 30 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"6\",\"Amount\":64.7,\"Description\":\"Russet potatoes, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"7\",\"Amount\":36.4,\"Description\":\"Italian parsley, 12 ct bunch\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"8\",\"Amount\":118.2,\"Description\":\"Green bell peppers, 25 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}}]}"
+    },
+    {
+      "id": 3,
+      "invoice_id": 20,
+      "sent_at": "2026-10-22 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"64\"},\"DocNumber\":\"7702\",\"TxnDate\":\"2026-10-20\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":131.85,\"Description\":\"Unsalted butter, 36 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":70.75,\"Description\":\"Shredded mozzarella, 4/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":67.4,\"Description\":\"Parmesan, 2/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":54.7,\"Description\":\"Cheddar, 2/5 lb loaf case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":46.9,\"Description\":\"Sour cream, 4/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1027\",\"VendorRef\":{\"value\":\"64\",\"name\":\"Clearwater Dairy\"},\"DocNumber\":\"7702\",\"TxnDate\":\"2026-10-20\",\"DueDate\":null,\"TotalAmt\":371.6,\"Balance\":371.6,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":131.85,\"Description\":\"Unsalted butter, 36 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"2\",\"Amount\":70.75,\"Description\":\"Shredded mozzarella, 4/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"3\",\"Amount\":67.4,\"Description\":\"Parmesan, 2/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"4\",\"Amount\":54.7,\"Description\":\"Cheddar, 2/5 lb loaf case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"5\",\"Amount\":46.9,\"Description\":\"Sour cream, 4/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}}]}"
+    },
+    {
+      "id": 4,
+      "invoice_id": 21,
+      "sent_at": "2026-10-22 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"63\"},\"DocNumber\":\"40812\",\"TxnDate\":\"2026-10-21\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":323.4,\"Description\":\"Chicken thighs, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":309.25,\"Description\":\"Chicken breast, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":188.45,\"Description\":\"Beef tenderloin, 2/6 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":389.25,\"Description\":\"Bacon, 15 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1028\",\"VendorRef\":{\"value\":\"63\",\"name\":\"Northgate Meats\"},\"DocNumber\":\"40812\",\"TxnDate\":\"2026-10-21\",\"DueDate\":null,\"TotalAmt\":1210.35,\"Balance\":1210.35,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":323.4,\"Description\":\"Chicken thighs, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"2\",\"Amount\":309.25,\"Description\":\"Chicken breast, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"3\",\"Amount\":188.45,\"Description\":\"Beef tenderloin, 2/6 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"4\",\"Amount\":389.25,\"Description\":\"Bacon, 15 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}}]}"
+    },
+    {
+      "id": 5,
+      "invoice_id": 22,
+      "sent_at": "2026-10-22 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"66\"},\"DocNumber\":\"F-30418\",\"TxnDate\":\"2026-10-22\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":3420,\"Description\":\"Convection oven, double stack\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"15\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1029\",\"VendorRef\":{\"value\":\"66\",\"name\":\"Fernwood Restaurant Supply\"},\"DocNumber\":\"F-30418\",\"TxnDate\":\"2026-10-22\",\"DueDate\":null,\"TotalAmt\":3420,\"Balance\":3420,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":3420,\"Description\":\"Convection oven, double stack\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"15\",\"name\":\"Fixed Assets:Kitchen Equipment\"}}}]}"
+    },
+    {
+      "id": 6,
+      "invoice_id": 23,
+      "sent_at": "2026-10-22 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 7,
+      "invoice_id": 40,
+      "sent_at": "2026-10-22 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-7766\",\"TxnDate\":\"2026-10-16\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":55.8,\"Description\":\"Avocados, 48 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":56.85,\"Description\":\"Radishes, 24 ct bunch\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":83.85,\"Description\":\"Green cabbage, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":98.7,\"Description\":\"Tomatillos, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":83.8,\"Description\":\"Limes, 200 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":53.9,\"Description\":\"Serrano chiles, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1017\",\"VendorRef\":{\"value\":\"57\",\"name\":\"Greenhollow Produce\"},\"DocNumber\":\"GH-7766\",\"TxnDate\":\"2026-10-16\",\"DueDate\":null,\"TotalAmt\":432.9,\"Balance\":432.9,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":55.8,\"Description\":\"Avocados, 48 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"2\",\"Amount\":56.85,\"Description\":\"Radishes, 24 ct bunch\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"3\",\"Amount\":83.85,\"Description\":\"Green cabbage, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"4\",\"Amount\":98.7,\"Description\":\"Tomatillos, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"5\",\"Amount\":83.8,\"Description\":\"Limes, 200 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"6\",\"Amount\":53.9,\"Description\":\"Serrano chiles, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}}]}"
+    },
+    {
+      "id": 8,
+      "invoice_id": 41,
+      "sent_at": "2026-10-22 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"58\"},\"DocNumber\":\"88012\",\"TxnDate\":\"2026-10-19\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":149.4,\"Description\":\"Ground beef 80/20, 10 lb chub\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":229.95,\"Description\":\"Tilapia fillets, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":124.2,\"Description\":\"Shrimp 21/25, 5 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":108.85,\"Description\":\"Beef cheek, 15 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":117.6,\"Description\":\"Ground cumin, 5 lb tub\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":108.45,\"Description\":\"Long grain rice, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":62.3,\"Description\":\"Chipotle peppers, 6/#10 can case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":98,\"Description\":\"Tomatillos, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":31.8,\"Description\":\"Brown paper bags, 250 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":70.2,\"Description\":\"Nitrile gloves, 10/100 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":18,\"Description\":\"Delivery Fee\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1018\",\"VendorRef\":{\"value\":\"58\",\"name\":\"Bayline Foods\"},\"DocNumber\":\"88012\",\"TxnDate\":\"2026-10-19\",\"DueDate\":null,\"TotalAmt\":1118.75,\"Balance\":1118.75,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":149.4,\"Description\":\"Ground beef 80/20, 10 lb chub\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"2\",\"Amount\":229.95,\"Description\":\"Tilapia fillets, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"3\",\"Amount\":124.2,\"Description\":\"Shrimp 21/25, 5 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"4\",\"Amount\":108.85,\"Description\":\"Beef cheek, 15 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"5\",\"Amount\":117.6,\"Description\":\"Ground cumin, 5 lb tub\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"6\",\"Amount\":108.45,\"Description\":\"Long grain rice, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"7\",\"Amount\":62.3,\"Description\":\"Chipotle peppers, 6/#10 can case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"8\",\"Amount\":98,\"Description\":\"Tomatillos, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"9\",\"Amount\":31.8,\"Description\":\"Brown paper bags, 250 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"10\",\"Amount\":70.2,\"Description\":\"Nitrile gloves, 10/100 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"11\",\"Amount\":18,\"Description\":\"Delivery Fee\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}}]}"
+    },
+    {
+      "id": 9,
+      "invoice_id": 42,
+      "sent_at": "2026-10-22 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"60\"},\"DocNumber\":\"F-12044\",\"TxnDate\":\"2026-10-21\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":100.8,\"Description\":\"Tortilla warmers, 12 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":309.2,\"Description\":\"Stainless tongs, 12 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":102.3,\"Description\":\"Deli containers, 16 oz, 240 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":100,\"Description\":\"Floor cleaner, 4/1 gal case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1019\",\"VendorRef\":{\"value\":\"60\",\"name\":\"Fernwood Restaurant Supply\"},\"DocNumber\":\"F-12044\",\"TxnDate\":\"2026-10-21\",\"DueDate\":null,\"TotalAmt\":612.3,\"Balance\":612.3,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":100.8,\"Description\":\"Tortilla warmers, 12 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"2\",\"Amount\":309.2,\"Description\":\"Stainless tongs, 12 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"3\",\"Amount\":102.3,\"Description\":\"Deli containers, 16 oz, 240 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"4\",\"Amount\":100,\"Description\":\"Floor cleaner, 4/1 gal case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}}]}"
+    },
+    {
+      "id": 10,
+      "invoice_id": 23,
+      "sent_at": "2026-10-23 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 11,
+      "invoice_id": 24,
+      "sent_at": "2026-10-23 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"88107\",\"TxnDate\":\"2026-10-23\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":496,\"Description\":\"Chicken breast, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":124.5,\"Description\":\"Olive oil blend, 35 lb jug\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":193.75,\"Description\":\"To-go boxes, 200 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":54.4,\"Description\":\"Trash liners, 100 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":104,\"Description\":\"Degreaser, 4/1 gal case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1030\",\"VendorRef\":{\"value\":\"57\",\"name\":\"Bayline Foods\"},\"DocNumber\":\"88107\",\"TxnDate\":\"2026-10-23\",\"DueDate\":null,\"TotalAmt\":972.65,\"Balance\":972.65,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":496,\"Description\":\"Chicken breast, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"2\",\"Amount\":124.5,\"Description\":\"Olive oil blend, 35 lb jug\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"3\",\"Amount\":193.75,\"Description\":\"To-go boxes, 200 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}},{\"Id\":\"4\",\"Amount\":54.4,\"Description\":\"Trash liners, 100 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}},{\"Id\":\"5\",\"Amount\":104,\"Description\":\"Degreaser, 4/1 gal case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}}]}"
+    },
+    {
+      "id": 12,
+      "invoice_id": 43,
+      "sent_at": "2026-10-23 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"58\"},\"DocNumber\":\"88107\",\"TxnDate\":\"2026-10-23\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":113.1,\"Description\":\"Beef cheek, 15 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":299,\"Description\":\"Boneless chicken thighs, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":290.8,\"Description\":\"Pork shoulder, 2/9 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":274,\"Description\":\"Mineral water, 24 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"15\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1020\",\"VendorRef\":{\"value\":\"58\",\"name\":\"Bayline Foods\"},\"DocNumber\":\"88107\",\"TxnDate\":\"2026-10-23\",\"DueDate\":null,\"TotalAmt\":976.9,\"Balance\":976.9,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":113.1,\"Description\":\"Beef cheek, 15 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"2\",\"Amount\":299,\"Description\":\"Boneless chicken thighs, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"3\",\"Amount\":290.8,\"Description\":\"Pork shoulder, 2/9 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"4\",\"Amount\":274,\"Description\":\"Mineral water, 24 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"15\",\"name\":\"Beverage Inventory\"}}}]}"
+    },
+    {
+      "id": 13,
+      "invoice_id": 23,
+      "sent_at": "2026-10-24 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 14,
+      "invoice_id": 23,
+      "sent_at": "2026-10-25 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 15,
+      "invoice_id": 23,
+      "sent_at": "2026-10-26 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 16,
+      "invoice_id": 25,
+      "sent_at": "2026-10-26 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"CM-0412\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-34.5,\"Description\":\"Credit: romaine hearts, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":-12,\"Description\":\"Credit: cilantro, short shipped\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 17,
+      "invoice_id": 44,
+      "sent_at": "2026-10-26 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-CR-19\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-31.2,\"Description\":\"Credit: avocados, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 18,
+      "invoice_id": 23,
+      "sent_at": "2026-10-27 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 19,
+      "invoice_id": 25,
+      "sent_at": "2026-10-27 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"CM-0412\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-34.5,\"Description\":\"Credit: romaine hearts, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":-12,\"Description\":\"Credit: cilantro, short shipped\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 20,
+      "invoice_id": 26,
+      "sent_at": "2026-10-27 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"65\"},\"DocNumber\":\"TL-2290\",\"TxnDate\":\"2026-10-27\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":62,\"Description\":\"Bar towels, weekly rental\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":48,\"Description\":\"Chef coats, weekly rental\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":32,\"Description\":\"Aprons, weekly rental\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1031\",\"VendorRef\":{\"value\":\"65\",\"name\":\"Tidewater Linen\"},\"DocNumber\":\"TL-2290\",\"TxnDate\":\"2026-10-27\",\"DueDate\":null,\"TotalAmt\":142,\"Balance\":142,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":62,\"Description\":\"Bar towels, weekly rental\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}},{\"Id\":\"2\",\"Amount\":48,\"Description\":\"Chef coats, weekly rental\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}},{\"Id\":\"3\",\"Amount\":32,\"Description\":\"Aprons, weekly rental\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}}]}"
+    },
+    {
+      "id": 21,
+      "invoice_id": 44,
+      "sent_at": "2026-10-27 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-CR-19\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-31.2,\"Description\":\"Credit: avocados, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 22,
+      "invoice_id": 45,
+      "sent_at": "2026-10-27 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 23,
+      "invoice_id": 23,
+      "sent_at": "2026-10-28 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 24,
+      "invoice_id": 25,
+      "sent_at": "2026-10-28 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"CM-0412\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-34.5,\"Description\":\"Credit: romaine hearts, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":-12,\"Description\":\"Credit: cilantro, short shipped\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 25,
+      "invoice_id": 27,
+      "sent_at": "2026-10-28 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"64\"},\"DocNumber\":\"7731\",\"TxnDate\":\"2026-10-28\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":138.1,\"Description\":\"Unsalted butter, 36 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":74.7,\"Description\":\"Heavy cream, 12/1 qt case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":26.6,\"Description\":\"Plain yogurt, 6/32 oz case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":70.6,\"Description\":\"Parmesan, 2/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":74.1,\"Description\":\"Shredded mozzarella, 4/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1032\",\"VendorRef\":{\"value\":\"64\",\"name\":\"Clearwater Dairy\"},\"DocNumber\":\"7731\",\"TxnDate\":\"2026-10-28\",\"DueDate\":null,\"TotalAmt\":384.1,\"Balance\":384.1,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":138.1,\"Description\":\"Unsalted butter, 36 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"2\",\"Amount\":74.7,\"Description\":\"Heavy cream, 12/1 qt case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"3\",\"Amount\":26.6,\"Description\":\"Plain yogurt, 6/32 oz case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"4\",\"Amount\":70.6,\"Description\":\"Parmesan, 2/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"5\",\"Amount\":74.1,\"Description\":\"Shredded mozzarella, 4/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}}]}"
+    },
+    {
+      "id": 26,
+      "invoice_id": 28,
+      "sent_at": "2026-10-28 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"63\"},\"DocNumber\":\"40937\",\"TxnDate\":\"2026-10-28\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":186.8,\"Description\":\"Beef tenderloin, 2/6 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":204.6,\"Description\":\"Shrimp 16/20, 5 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":421.2,\"Description\":\"Salmon fillets, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":106.8,\"Description\":\"Chicken thighs, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":154.2,\"Description\":\"Italian sausage, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1033\",\"VendorRef\":{\"value\":\"63\",\"name\":\"Northgate Meats\"},\"DocNumber\":\"40937\",\"TxnDate\":\"2026-10-28\",\"DueDate\":null,\"TotalAmt\":1073.6,\"Balance\":1073.6,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":186.8,\"Description\":\"Beef tenderloin, 2/6 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"2\",\"Amount\":204.6,\"Description\":\"Shrimp 16/20, 5 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"3\",\"Amount\":421.2,\"Description\":\"Salmon fillets, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"4\",\"Amount\":106.8,\"Description\":\"Chicken thighs, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"5\",\"Amount\":154.2,\"Description\":\"Italian sausage, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}}]}"
+    },
+    {
+      "id": 27,
+      "invoice_id": 44,
+      "sent_at": "2026-10-28 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-CR-19\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-31.2,\"Description\":\"Credit: avocados, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 28,
+      "invoice_id": 45,
+      "sent_at": "2026-10-28 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 29,
+      "invoice_id": 46,
+      "sent_at": "2026-10-28 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"59\"},\"DocNumber\":\"7790\",\"TxnDate\":\"2026-10-28\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":144,\"Description\":\"Medium roast coffee, 5 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"15\"}}},{\"Amount\":52,\"Description\":\"Cold brew concentrate, 1 gal\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"15\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1021\",\"VendorRef\":{\"value\":\"59\",\"name\":\"Larkspur Coffee Roasters\"},\"DocNumber\":\"7790\",\"TxnDate\":\"2026-10-28\",\"DueDate\":null,\"TotalAmt\":196,\"Balance\":196,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":144,\"Description\":\"Medium roast coffee, 5 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"15\",\"name\":\"Beverage Inventory\"}}},{\"Id\":\"2\",\"Amount\":52,\"Description\":\"Cold brew concentrate, 1 gal\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"15\",\"name\":\"Beverage Inventory\"}}}]}"
+    },
+    {
+      "id": 30,
+      "invoice_id": 23,
+      "sent_at": "2026-10-29 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 31,
+      "invoice_id": 25,
+      "sent_at": "2026-10-29 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"CM-0412\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-34.5,\"Description\":\"Credit: romaine hearts, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":-12,\"Description\":\"Credit: cilantro, short shipped\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 32,
+      "invoice_id": 29,
+      "sent_at": "2026-10-29 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"GH-5521\",\"TxnDate\":\"2026-10-29\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":54.3,\"Description\":\"Italian parsley, 12 ct bunch\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":87.6,\"Description\":\"Yellow onions, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":69.45,\"Description\":\"Spring mix, 3 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":39.2,\"Description\":\"Green bell peppers, 25 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":96.6,\"Description\":\"Russet potatoes, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":48.3,\"Description\":\"Carrots, 25 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":68.4,\"Description\":\"Broccoli crowns, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":76.5,\"Description\":\"Button mushrooms, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":72.4,\"Description\":\"Celery, 30 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1034\",\"VendorRef\":{\"value\":\"61\",\"name\":\"Greenhollow Produce\"},\"DocNumber\":\"GH-5521\",\"TxnDate\":\"2026-10-29\",\"DueDate\":null,\"TotalAmt\":612.75,\"Balance\":612.75,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":54.3,\"Description\":\"Italian parsley, 12 ct bunch\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"2\",\"Amount\":87.6,\"Description\":\"Yellow onions, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"3\",\"Amount\":69.45,\"Description\":\"Spring mix, 3 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"4\",\"Amount\":39.2,\"Description\":\"Green bell peppers, 25 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"5\",\"Amount\":96.6,\"Description\":\"Russet potatoes, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"6\",\"Amount\":48.3,\"Description\":\"Carrots, 25 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"7\",\"Amount\":68.4,\"Description\":\"Broccoli crowns, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"8\",\"Amount\":76.5,\"Description\":\"Button mushrooms, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"9\",\"Amount\":72.4,\"Description\":\"Celery, 30 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}}]}"
+    },
+    {
+      "id": 33,
+      "invoice_id": 44,
+      "sent_at": "2026-10-29 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-CR-19\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-31.2,\"Description\":\"Credit: avocados, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 34,
+      "invoice_id": 45,
+      "sent_at": "2026-10-29 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 35,
+      "invoice_id": 47,
+      "sent_at": "2026-10-29 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-7812\",\"TxnDate\":\"2026-10-29\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":58.1,\"Description\":\"White onions, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":67.8,\"Description\":\"Poblano peppers, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":52.3,\"Description\":\"Serrano chiles, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":78.45,\"Description\":\"Peeled garlic, 5 lb jar\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":40.7,\"Description\":\"Limes, 200 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":63.9,\"Description\":\"Tomatillos, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":44.5,\"Description\":\"Jalapenos, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1022\",\"VendorRef\":{\"value\":\"57\",\"name\":\"Greenhollow Produce\"},\"DocNumber\":\"GH-7812\",\"TxnDate\":\"2026-10-29\",\"DueDate\":null,\"TotalAmt\":405.75,\"Balance\":405.75,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":58.1,\"Description\":\"White onions, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"2\",\"Amount\":67.8,\"Description\":\"Poblano peppers, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"3\",\"Amount\":52.3,\"Description\":\"Serrano chiles, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"4\",\"Amount\":78.45,\"Description\":\"Peeled garlic, 5 lb jar\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"5\",\"Amount\":40.7,\"Description\":\"Limes, 200 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"6\",\"Amount\":63.9,\"Description\":\"Tomatillos, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"7\",\"Amount\":44.5,\"Description\":\"Jalapenos, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}}]}"
+    },
+    {
+      "id": 36,
+      "invoice_id": 29,
+      "sent_at": "2026-10-30 10:14:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"GH-5521\",\"TxnDate\":\"2026-10-29\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":54.3,\"Description\":\"Italian parsley, 12 ct bunch\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":87.6,\"Description\":\"Yellow onions, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":69.45,\"Description\":\"Spring mix, 3 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":39.2,\"Description\":\"Green bell peppers, 25 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":96.6,\"Description\":\"Russet potatoes, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":48.3,\"Description\":\"Carrots, 25 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":68.4,\"Description\":\"Broccoli crowns, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":76.5,\"Description\":\"Button mushrooms, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":72.4,\"Description\":\"Celery, 30 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1035\",\"VendorRef\":{\"value\":\"61\",\"name\":\"Greenhollow Produce\"},\"DocNumber\":\"GH-5521\",\"TxnDate\":\"2026-10-29\",\"DueDate\":null,\"TotalAmt\":612.75,\"Balance\":612.75,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":54.3,\"Description\":\"Italian parsley, 12 ct bunch\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"2\",\"Amount\":87.6,\"Description\":\"Yellow onions, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"3\",\"Amount\":69.45,\"Description\":\"Spring mix, 3 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"4\",\"Amount\":39.2,\"Description\":\"Green bell peppers, 25 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"5\",\"Amount\":96.6,\"Description\":\"Russet potatoes, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"6\",\"Amount\":48.3,\"Description\":\"Carrots, 25 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"7\",\"Amount\":68.4,\"Description\":\"Broccoli crowns, 20 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"8\",\"Amount\":76.5,\"Description\":\"Button mushrooms, 10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"9\",\"Amount\":72.4,\"Description\":\"Celery, 30 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}}]}"
+    },
+    {
+      "id": 37,
+      "invoice_id": 23,
+      "sent_at": "2026-10-30 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 38,
+      "invoice_id": 25,
+      "sent_at": "2026-10-30 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"CM-0412\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-34.5,\"Description\":\"Credit: romaine hearts, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":-12,\"Description\":\"Credit: cilantro, short shipped\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 39,
+      "invoice_id": 30,
+      "sent_at": "2026-10-30 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"88214\",\"TxnDate\":\"2026-10-30\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":496,\"Description\":\"Chicken breast, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":231,\"Description\":\"Ground beef 80/20, 10 lb chub\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":296.2,\"Description\":\"Pork butt, 2/9 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":87,\"Description\":\"Yellow onions, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":138,\"Description\":\"Romaine hearts, 12 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":123,\"Description\":\"Roma tomatoes, 25 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":98,\"Description\":\"All-purpose flour, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":139.5,\"Description\":\"Canola oil, 35 lb jug\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":93,\"Description\":\"Whole milk, 4/1 gal case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":217.2,\"Description\":\"Shredded mozzarella, 4/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":232.5,\"Description\":\"To-go boxes, 200 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":64,\"Description\":\"Insulated delivery bags, 10 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":91,\"Description\":\"Degreaser, 1 gal jug\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1036\",\"VendorRef\":{\"value\":\"57\",\"name\":\"Bayline Foods\"},\"DocNumber\":\"88214\",\"TxnDate\":\"2026-10-30\",\"DueDate\":null,\"TotalAmt\":2306.4,\"Balance\":2306.4,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":496,\"Description\":\"Chicken breast, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"2\",\"Amount\":231,\"Description\":\"Ground beef 80/20, 10 lb chub\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"3\",\"Amount\":296.2,\"Description\":\"Pork butt, 2/9 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"4\",\"Amount\":87,\"Description\":\"Yellow onions, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"5\",\"Amount\":138,\"Description\":\"Romaine hearts, 12 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"6\",\"Amount\":123,\"Description\":\"Roma tomatoes, 25 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"7\",\"Amount\":98,\"Description\":\"All-purpose flour, 50 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"8\",\"Amount\":139.5,\"Description\":\"Canola oil, 35 lb jug\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"9\",\"Amount\":93,\"Description\":\"Whole milk, 4/1 gal case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"10\",\"Amount\":217.2,\"Description\":\"Shredded mozzarella, 4/5 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\",\"name\":\"Inventory:Food\"}}},{\"Id\":\"11\",\"Amount\":232.5,\"Description\":\"To-go boxes, 200 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}},{\"Id\":\"12\",\"Amount\":64,\"Description\":\"Insulated delivery bags, 10 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}},{\"Id\":\"13\",\"Amount\":91,\"Description\":\"Degreaser, 1 gal jug\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Inventory:Packaging\"}}}]}"
+    },
+    {
+      "id": 40,
+      "invoice_id": 44,
+      "sent_at": "2026-10-30 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-CR-19\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-31.2,\"Description\":\"Credit: avocados, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 41,
+      "invoice_id": 45,
+      "sent_at": "2026-10-30 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 42,
+      "invoice_id": 48,
+      "sent_at": "2026-10-30 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"58\"},\"DocNumber\":\"88230\",\"TxnDate\":\"2026-10-30\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":187.35,\"Description\":\"Shrimp 21/25, 5 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":163.85,\"Description\":\"Skirt steak, 2/10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":288.8,\"Description\":\"Boneless chicken thighs, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":170.7,\"Description\":\"Black beans, 25 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":39.9,\"Description\":\"Hominy, 6/#10 can case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":120,\"Description\":\"Queso fresco, 6/2 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":67.25,\"Description\":\"Nitrile gloves, 10/100 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":152.75,\"Description\":\"Paper food trays, 250 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}},{\"Amount\":14,\"Description\":\"Delivery Fee\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 201,
+      "response_json": "{\"Id\":\"1023\",\"VendorRef\":{\"value\":\"58\",\"name\":\"Bayline Foods\"},\"DocNumber\":\"88230\",\"TxnDate\":\"2026-10-30\",\"DueDate\":null,\"TotalAmt\":1204.6,\"Balance\":1204.6,\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Id\":\"1\",\"Amount\":187.35,\"Description\":\"Shrimp 21/25, 5 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"2\",\"Amount\":163.85,\"Description\":\"Skirt steak, 2/10 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"3\",\"Amount\":288.8,\"Description\":\"Boneless chicken thighs, 40 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"4\",\"Amount\":170.7,\"Description\":\"Black beans, 25 lb bag\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"5\",\"Amount\":39.9,\"Description\":\"Hominy, 6/#10 can case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"6\",\"Amount\":120,\"Description\":\"Queso fresco, 6/2 lb case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"7\",\"Amount\":67.25,\"Description\":\"Nitrile gloves, 10/100 ct case\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"8\",\"Amount\":152.75,\"Description\":\"Paper food trays, 250 ct\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}},{\"Id\":\"9\",\"Amount\":14,\"Description\":\"Delivery Fee\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\",\"name\":\"Food Inventory\"}}}]}"
+    },
+    {
+      "id": 43,
+      "invoice_id": 23,
+      "sent_at": "2026-10-31 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 44,
+      "invoice_id": 25,
+      "sent_at": "2026-10-31 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"CM-0412\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-34.5,\"Description\":\"Credit: romaine hearts, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":-12,\"Description\":\"Credit: cilantro, short shipped\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 45,
+      "invoice_id": 44,
+      "sent_at": "2026-10-31 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-CR-19\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-31.2,\"Description\":\"Credit: avocados, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 46,
+      "invoice_id": 45,
+      "sent_at": "2026-10-31 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 47,
+      "invoice_id": 23,
+      "sent_at": "2026-11-01 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 48,
+      "invoice_id": 25,
+      "sent_at": "2026-11-01 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"CM-0412\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-34.5,\"Description\":\"Credit: romaine hearts, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":-12,\"Description\":\"Credit: cilantro, short shipped\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 49,
+      "invoice_id": 44,
+      "sent_at": "2026-11-01 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-CR-19\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-31.2,\"Description\":\"Credit: avocados, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 50,
+      "invoice_id": 45,
+      "sent_at": "2026-11-01 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 51,
+      "invoice_id": 23,
+      "sent_at": "2026-11-02 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 52,
+      "invoice_id": 25,
+      "sent_at": "2026-11-02 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"CM-0412\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-34.5,\"Description\":\"Credit: romaine hearts, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":-12,\"Description\":\"Credit: cilantro, short shipped\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 53,
+      "invoice_id": 44,
+      "sent_at": "2026-11-02 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-CR-19\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-31.2,\"Description\":\"Credit: avocados, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 54,
+      "invoice_id": 45,
+      "sent_at": "2026-11-02 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 55,
+      "invoice_id": 23,
+      "sent_at": "2026-11-03 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 56,
+      "invoice_id": 25,
+      "sent_at": "2026-11-03 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"CM-0412\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-34.5,\"Description\":\"Credit: romaine hearts, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":-12,\"Description\":\"Credit: cilantro, short shipped\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 57,
+      "invoice_id": 44,
+      "sent_at": "2026-11-03 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-CR-19\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-31.2,\"Description\":\"Credit: avocados, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 58,
+      "invoice_id": 45,
+      "sent_at": "2026-11-03 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 59,
+      "invoice_id": 23,
+      "sent_at": "2026-11-04 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 60,
+      "invoice_id": 25,
+      "sent_at": "2026-11-04 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"CM-0412\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-34.5,\"Description\":\"Credit: romaine hearts, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":-12,\"Description\":\"Credit: cilantro, short shipped\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 61,
+      "invoice_id": 44,
+      "sent_at": "2026-11-04 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-CR-19\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-31.2,\"Description\":\"Credit: avocados, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 62,
+      "invoice_id": 45,
+      "sent_at": "2026-11-04 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 63,
+      "invoice_id": 23,
+      "sent_at": "2026-11-05 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
+    },
+    {
+      "id": 64,
+      "invoice_id": 25,
+      "sent_at": "2026-11-05 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"61\"},\"DocNumber\":\"CM-0412\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-34.5,\"Description\":\"Credit: romaine hearts, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}},{\"Amount\":-12,\"Description\":\"Credit: cilantro, short shipped\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"12\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 65,
+      "invoice_id": 44,
+      "sent_at": "2026-11-05 23:00:00",
+      "request_json": "{\"VendorRef\":{\"value\":\"57\"},\"DocNumber\":\"GH-CR-19\",\"TxnDate\":\"2026-10-26\",\"PrivateNote\":\"Sent from Pathway\",\"Line\":[{\"Amount\":-31.2,\"Description\":\"Credit: avocados, damaged\",\"DetailType\":\"AccountBasedExpenseLineDetail\",\"AccountBasedExpenseLineDetail\":{\"AccountRef\":{\"value\":\"14\"}}}]}",
+      "status": 400,
+      "response_json": "{\"error\":\"The bill total cannot be negative\"}"
+    },
+    {
+      "id": 66,
+      "invoice_id": 45,
+      "sent_at": "2026-11-05 23:00:00",
+      "request_json": null,
+      "status": null,
+      "response_json": null
     }
   ]
 }

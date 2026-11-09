@@ -6,6 +6,12 @@ export function formatDate(date: string) {
   return `${MONTHS[Number(month) - 1]} ${Number(day)}, ${year}`;
 }
 
+// Takes a date or a time like 2026-10-22 23:00:00 and shows its date without the year.
+export function formatDay(time: string) {
+  const [, month, day] = time.slice(0, 10).split("-");
+  return `${MONTHS[Number(month) - 1]} ${Number(day)}`;
+}
+
 export function formatMoney(cents: number) {
   const dollars = (Math.abs(cents) / 100).toLocaleString("en-US", {
     minimumFractionDigits: 2,

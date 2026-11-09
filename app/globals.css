@@ -29,6 +29,10 @@
   --color-context: #a4513a;
   --color-warning: #805619;
   --color-warning-surface: #fbf1de;
+  --color-success: #2b6a45;
+  --color-success-surface: #e7f2ea;
+  --color-error: #a8322b;
+  --color-error-surface: #fbe9e6;
 
   --font-body: "Inter", system-ui, sans-serif;
   --font-heading: "Inter Tight", system-ui, sans-serif;
@@ -440,6 +444,48 @@ button {
   border-color: var(--color-control);
 }
 
+.select-wide {
+  width: 100%;
+}
+
+/* QuickBooks */
+
+.status {
+  font-weight: 500;
+}
+
+.status-sent {
+  color: var(--color-success);
+}
+
+.status-error {
+  color: var(--color-error);
+}
+
+.quickbooks-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 10px 10px 10px 16px;
+  border-radius: var(--radius-surface);
+}
+
+.quickbooks-strip-sent {
+  background: var(--color-success-surface);
+  color: var(--color-success);
+}
+
+.quickbooks-strip-error {
+  background: var(--color-error-surface);
+  color: var(--color-error);
+}
+
+.quickbooks-strip-text {
+  font-weight: 500;
+  line-height: 22px;
+}
+
 /* Settings */
 
 .section {
@@ -486,6 +532,22 @@ button {
 
 .button:hover {
   background: var(--color-primary-hover);
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.button-secondary {
+  background: var(--color-workspace);
+  border: 1px solid var(--color-divider);
+  color: var(--color-ink);
+}
+
+.button-secondary:hover {
+  background: var(--color-hover);
+  border-color: var(--color-control);
 }
 
 .table .rename-cell {

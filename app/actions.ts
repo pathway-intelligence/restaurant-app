@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import * as db from "@/lib/db";
 import { BUSINESS_COOKIE, currentBusiness } from "@/lib/current-business";
+import * as quickbooks from "@/lib/quickbooks";
 
 const ONE_YEAR = 60 * 60 * 24 * 365;
 
@@ -49,4 +50,23 @@ export async function renameCategory(categoryId: number, formData: FormData): Pr
 
 function categoryName(formData: FormData) {
   return String(formData.get("name") ?? "").trim();
+}
+
+export async function importAccounts() {
+  const business = await currentBusiness();
+  await quickbooks.importAccounts(business);
+  revalidatePath("/", "layout");
+}
+
+export async function setCategoryAccount(categoryId: number, accountId: string) {
+  const business = await currentBusiness();
+  db.setCategoryAccount(business.id, categoryId, accountId);
+  revalidatePath("/", "layout");
+}
+
+export async function sendAgain(invoiceId: number) {
+  const business = await currentBusiness();
+  const invoice = db.getInvoice(business.id, invoiceId);
+  if (invoice) await quickbooks.sendInvoice(business, invoice);
+  revalidatePath("/", "layout");
 }
