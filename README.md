@@ -1,8 +1,10 @@
 # Pathway restaurant app
 
-A simplified version of Pathway, the platform restaurants use to run their operations. It shows the invoices a restaurant receives from its distributors, and what was bought on each one.
+A simplified version of Pathway, the platform restaurants use to run their operations. It shows the invoices a restaurant receives from its distributors, what was bought on each one, and sends each invoice to the restaurant's QuickBooks as a bill.
 
-**Start with [TASK.md](TASK.md),** which explains what we'd like you to do. This file only covers setup.
+**Start with [TASK.md](TASK.md).** This file only covers setup.
+
+The follow-up call is a conversation without AI tools.
 
 ## Set up
 
@@ -15,34 +17,17 @@ npm run dev
 
 Open the URL printed in your terminal, usually http://localhost:3000. The first run creates the database and loads the sample data.
 
-## Commands
-
-| Command | What it does |
-|---|---|
-| `npm run dev` | Applies any new migrations, then starts the app |
-| `npm run db:migrate` | Applies any new migrations |
-| `npm run db:reset` | Deletes the database and starts over with the sample data |
-
-## What's in the repo
-
-| Path | What it is |
-|---|---|
-| `app/` | The pages, and the actions that save changes |
-| `components/` | The sidebar, business switcher and other small pieces |
-| `lib/db.ts` | Every database query |
-| `db/migrations/` | The database schema, as SQL files |
-| `db/seed.json` | The sample data |
-
-It's Next.js and TypeScript, with SQLite through Node's built-in `node:sqlite`. You're free to change anything.
-
-## Changing the database
-
-Add a numbered SQL file to `db/migrations`, such as `002_my_change.sql`, then run `npm run db:migrate`. Each file runs once. The sample data is only loaded when the database is first created, so your migrations run against the rows that are already there.
-
 ## Fake QuickBooks service
 
 - **URL:** https://fake-quickbooks.onrender.com
-- **Authentication token:** ask one of your interviewers.
+- **Authentication token:** ask an interviewer for the token.
+
+Put both in `.env.local` in the project folder:
+
+```bash
+QUICKBOOKS_URL=https://fake-quickbooks.onrender.com
+QUICKBOOKS_TOKEN=YOUR_TOKEN
+```
 
 This stands in for the real QuickBooks API. It uses the same names for objects and fields, but it's simpler: there's no OAuth or query language, and money is in dollars.
 
@@ -87,18 +72,31 @@ To create a bill, send JSON like this. `Id` and `value` fields are strings:
 }
 ```
 
-**This is a test service, so `POST` doesn't keep anything.** It checks your bill and returns what it would create, including a new `Id`, but the bill won't appear when you read bills afterwards. Treat a `201` as success. A bill it can't accept gets a `400` with a short message saying why.
+`POST` checks your bill and returns what it would create, including a new `Id`, but the bill won't appear when you read bills afterwards. Treat a `201` as success. A bill it can't accept gets a `400` with a short message saying why.
 
-## Sending us your work
+## Commands
 
-When you're finished, run these commands from the project folder, using your own name for the file:
+| Command | What it does |
+|---|---|
+| `npm run dev` | Applies any new migrations, then starts the app |
+| `npm run quickbooks:send` | Sends each invoice that hasn't been sent, and each one that failed, to QuickBooks |
+| `npm test` | Runs the tests |
+| `npm run db:migrate` | Applies any new migrations |
+| `npm run db:reset` | Deletes the database and starts over with the sample data |
 
-```bash
-git add -A
-git commit -m "My work"
-git bundle create your-name.bundle --all
-```
+The test QuickBooks keeps nothing, so sending never changes the books.
 
-This saves your work in one file, `your-name.bundle`, in the project folder. It includes your commits, and it leaves out `node_modules` and the database.
+## What's in the repo
 
-Attach that file to an email and send it to your interviewer.
+| Path | What it is |
+|---|---|
+| `app/` | The pages, and the actions that save changes |
+| `components/` | The sidebar, business switcher and other small pieces |
+| `lib/db.ts` | Every database query |
+| `lib/quickbooks.ts` | Sending invoices to QuickBooks |
+| `scripts/send.ts` | The nightly send, `npm run quickbooks:send` |
+| `docs/quickbooks.md` | How sending to QuickBooks works |
+| `db/migrations/` | The database schema, as SQL files |
+| `db/seed.json` | The sample data |
+
+It's Next.js and TypeScript, with SQLite through Node's built-in `node:sqlite`.
